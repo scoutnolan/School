@@ -1,0 +1,47 @@
+
+# test_mage.txt - Test Mage Class
+
+-------------------------
+# Testing the creation of a Gnome Mage named Bob
+
+# Status of Bob
+Mage Status
+Name: Bob
+Race: Gnome
+Level: 1
+Exp: 0
+Health: 50
+Intelligence: 10
+-------------------------
+# Testing the creation of a Goblin named Pickles
+
+# Status of Pickles
+Goblin Status
+Name: Pickles
+Race: Goblin
+Level: 1
+Exp: 0
+Health: 30
+Sneak Attack: 2
+-------------------------
+# The Goblin enemy sneak attacks
+Pickles Sneak Attacks Bob for 24 points
+Bob takes 24 points of damage.
+-------------------------
+# The Goblin enemy regular attacks
+Pickles attacks Bob with Pointy Stick for 4 points
+Bob takes 4 points of damage.
+-------------------------
+# The Mage regular attacks
+Bob attacks Pickles with Simple Staff for 10 points
+Pickles takes 10 points of damage.
+-------------------------
+# The Mage sends a Fireball
+Bob attacks Pickles with a Fireball for 20 points
+Pickles takes 20 points of damage.
+-------------------------
+# The Mage sends another Fireball
+Bob attacks Pickles with a Fireball for 20 points
+Pickles takes 20 points of damage.
+Pickles has died.
+-------------------------

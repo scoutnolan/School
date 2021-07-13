@@ -1,0 +1,25 @@
+# Testing Party Initialization
++ r 123 h "Jimmy The Hand"
+i 123 50 a "Leather Boots of the Sneak"
+i 123 50 a "Sneaky Robe"
+i 123 150 p "Potion of Sneakiness"
+p p i 123
+
++ m 454 h "Rand Al'Thor"
+i 454 50 a "Boots of the Dragon"
+i 454 50 a "Single Glove of Strength"
+i 454 150 p "Potion of Clarity"
+i 454 150 p "Sweetwater Potion"
+p p i 454
+
+# Thorin Oakenshield
++ w 867 d "Thorin Oakenshield"
+i 867 150 m "Fine Plate Armor"
+i 867 120 m "Boots of Strength"
+i 867 10 r "Gold"
+i 867 10 p "Potion of Strength"
+p p i 867
+
+
+
+p p a

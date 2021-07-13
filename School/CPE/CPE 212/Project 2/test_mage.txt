@@ -1,0 +1,39 @@
+# test_mage.txt - Test Mage Class
+b
+
+# Testing the creation of a Gnome Mage named Bob
++ m n Bob
+
+# Status of Bob
+s m
+b
+
+# Testing the creation of a Goblin named Pickles
++ g g Pickles
+
+# Status of Pickles
+s g
+b
+
+# The Goblin enemy sneak attacks
+a g s m
+b
+
+# The Goblin enemy regular attacks
+a g a m
+b
+
+# The Mage regular attacks
+a m a
+b
+
+# The Mage sends a Fireball
+a m s
+b
+
+# The Mage sends another Fireball
+a m s
+b
+
+- r
+- g

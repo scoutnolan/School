@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mainLobbyScreen.png</file>
+        <file>mainGameplayScreen.jpg</file>
+        <file>animationImage.gif</file>
+    </qresource>
+</RCC>

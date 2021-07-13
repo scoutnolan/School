@@ -1,0 +1,6 @@
+// All inputs are valid
+bulk
+20
+25
+15
+25

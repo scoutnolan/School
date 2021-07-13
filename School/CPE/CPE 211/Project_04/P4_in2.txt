@@ -1,0 +1,6 @@
+line 1 is split here:To divide the line!!
+:
+Second Line(is split using(left parentheses
+(
+// the first two lines are read for the first part of the program
+// The third and fourth lines are read for the second part

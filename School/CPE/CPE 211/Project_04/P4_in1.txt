@@ -1,0 +1,6 @@
+line 1 has a?unique character in it
+?
+line number 2$is split in three$using dollar signs
+$
+// the first two lines are read for the first part of the program
+// The third and fourth lines are read for the second part

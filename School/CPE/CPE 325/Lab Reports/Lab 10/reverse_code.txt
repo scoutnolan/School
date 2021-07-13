@@ -1,0 +1,90 @@
+Addr    Opcode Instruction                              Cycles
+------- ------ ----------------------------------       ------
+0x4400: 0x40b2 mov.w #0x5a80, &0x015c                   5           //  Setting the watchdog timer
+0x4402: 0x5a80
+0x4404: 0x015c
+0x4406: 0xd3d2 bis.b #1, &0x0204                        4           //  Setting PADIR
+0x4408: 0x0204
+0x440a: 0xd0f2 bis.b #0x80, &0x0225                     5           //  Setting PBDIR_H
+0x440c: 0x0080
+0x440e: 0x0225
+0x4410: 0xc3e2 bic.b #2, &0x0204                        4           //  Clearing PADIR
+0x4412: 0x0204
+0x4414: 0xd3e2 bis.b #2, &0x0202                        4           //  Setting output direction P2.2 for PAOUT
+0x4416: 0x0202
+0x4418: 0xd3e2 bis.b #2, &0x0206                        4           //  Setting PAREN 
+0x441a: 0x0206
+0x441c: 0xc3e2 bic.b #2, &0x0205                        4           //  Clearing PADIR_H
+0x441e: 0x0205
+0x4420: 0xd3e2 bis.b #2, &0x0203                        4           //  Setting PAOUT_H
+0x4422: 0x0203  
+0x4424: 0xd3e2 bis.b #2, &0x0207                        4           //  Setting PAREN_H
+0x4426: 0x0207
+// What's about to happen below is the auto generation waiting for an input, but it does it I think 3 times. As in it waits for input 3 times, maybe debouncing? Not sure.
+0x4428: 0xb3e2 bit.b #2, &0x0200                        4           //  Anding with PAIN, a test. Most likely for the button press.
+0x442a: 0x0200
+0x442c: 0x23fd jne 0x4428  (offset: -6)                 2           //  And then if the switch has not been pressed, wait for the button to be pressed.
+0x442e: 0x120d push.w r13                               3           //  If the button is pressed, push R13 onto the stack
+0x4430: 0x403d mov.w #0x031d, r13                       2           //  Populate a large value
+0x4432: 0x031d
+0x4434: 0x831d sub.w #1, r13                            1           //  Sub R13
+0x4436: 0x23fe jne 0x4434  (offset: -4)                 2           //  Loop until 0
+0x4438: 0x413d pop.w r13   --  mov.w @SP+, r13          2           //  Then pop R13 
+0x443a: 0x3c00 jmp 0x443c  (offset: 0)                  2           //  And jump to 443c, which is next line? This is funny how it generates.
+0x443c: 0xb3e2 bit.b #2, &0x0200                        4           //  Same thing as 0x4428. It waits for a button to be pressed or some tinput.
+0x443e: 0x0200
+0x4440: 0x23f3 jne 0x4428  (offset: -26)                2           //  If it is not set jump to 4428 to restart (loop).
+0x4442: 0xb3e2 bit.b #2, &0x0201                        4           //  Test the input high value
+0x4444: 0x0201
+0x4446: 0x23fd jne 0x4442  (offset: -6)                 2           //  If it is not set go back to 4442 ti wait for the high value to be set.
+0x4448: 0x120d push.w r13                               3           //  Push r13
+0x444a: 0x403d mov.w #0x031d, r13                       2           //  Populate a value
+0x444c: 0x031d
+0x444e: 0x831d sub.w #1, r13                            1           //  Sub 1
+0x4450: 0x23fe jne 0x444e  (offset: -4)                 2           //  Until 0, loop.
+0x4452: 0x413d pop.w r13   --  mov.w @SP+, r13          2           //  Pop R13 and push it onto the stack.
+0x4454: 0x3c00 jmp 0x4456  (offset: 0)                  2           //  Jump to next line lol
+0x4456: 0xb3e2 bit.b #2, &0x0201                        4           //  Test the high state of the input again
+0x4458: 0x0201
+0x445a: 0x23f3 jne 0x4442  (offset: -26)                2           //  The following code below is a loop to toggle the LED's by decrementing
+0x445c: 0xe3d2 xor.b #1, &0x0202                        4           //  the register values and then toggling when they're 0. 
+0x445e: 0x0202          
+0x4460: 0xe0f2 xor.b #0x80, &0x0223                     5           //  Toggle the LED
+0x4462: 0x0080      
+0x4464: 0x0223
+0x4466: 0x120d push.w r13                               3           //  Push R13 and R14 onto the stack.
+0x4468: 0x120e push.w r14                               3           //
+0x446a: 0x403d mov.w #0x2844, r13                       2           //  Move 2844 into R13 to reset its value.
+0x446c: 0x2844      
+0x446e: 0x431e mov.w #1, r14                            1           //  Move #1 into register R14
+0x4470: 0x831d sub.w #1, r13                            1           //  Take 1 off of register R13
+0x4472: 0x730e subc.w #0, r14                           1           //  Subtract with carray off of R14
+0x4474: 0x23fd jne 0x4470  (offset: -6)                 2           //  If the Z flag is not set, keep decrementing. 
+0x4476: 0x930d cmp.w #0, r13                            1           //  Compare 0 to R13.
+0x4478: 0x23fb jne 0x4470  (offset: -10)                2           //  If the Z flag is not set, keep decrementing 
+0x447a: 0x413e pop.w r14   --  mov.w @SP+, r14          2           //  If they are 0, pop R14 and R13 off of the stack 
+0x447c: 0x413d pop.w r13   --  mov.w @SP+, r13          2           //  Increment the stack pointer and put it into R13 and R14 presumably to restart. 
+0x447e: 0x3c00 jmp 0x4480  (offset: 0)                  2           //  Jump to 4480? Weird...
+0x4480: 0x4303 nop   --  mov.w #0, CG                   1           //  No operation, move 0 into CG?
+0x4482: 0x3fec jmp 0x445c  (offset: -40)                2           //  Jump to 445c.
+0x4484: 0x4303 nop   --  mov.w #0, CG                   1           //  Move 0 into CG?
+0x4486: 0x4031 mov.w #0x4400, SP                        2           //  Go back to start of program. 
+0x4488: 0x4400
+0x448a: 0x12b0 call #0x44a0                             5           //  Weird... Just goes to next line. 
+0x448c: 0x44a0
+0x448e: 0x430c mov.w #0, r12                            1           //  Move 0 into R12
+0x4490: 0x12b0 call #0x4400                             5           //  Restart program
+0x4492: 0x4400      
+0x4494: 0x431c mov.w #1, r12                            1           //  Move 1 into R12
+0x4496: 0x12b0 call #0x449a                             5           //  Goes to next line...
+0x4498: 0x449a 
+// Maybe what's going on here is the program is just infinite looping as an interrupt. It's a little obscure. 
+0x449a: 0x4303 nop   --  mov.w #0, CG                   1           //  No operation
+0x449c: 0x3fff jmp 0x449c  (offset: -2)                 2           //  jmp to next line
+0x449e: 0x4303 nop   --  mov.w #0, CG                   1           //  no operation
+0x44a0: 0x431c mov.w #1, r12                            1           //  Move 1 into r12, Already done though???
+0x44a2: 0x4130 ret   --  mov.w @SP+, PC                 3           //  Return from interrupt
+0x44a4: 0xd032 bis.w #0x0010, SR                        2           //  Set 10 as the status register
+0x44a6: 0x0010
+0x44a8: 0x3ffd jmp 0x44a4  (offset: -6)                 2           //  Jump to 44a4
+0x44aa: 0x4303 nop   --  mov.w #0, CG                   1           //  No operation wait for end of program

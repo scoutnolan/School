@@ -1,0 +1,509 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Game1:T1|b'
+Slack : -5.909
+TNS   : -134.318
+
+Type  : Slow 1200mV 85C Model Setup 'Game2:T2|A2'
+Slack : -4.953
+TNS   : -110.501
+
+Type  : Slow 1200mV 85C Model Setup 'clk_divisor:U0|clock1k'
+Slack : -4.384
+TNS   : -96.545
+
+Type  : Slow 1200mV 85C Model Setup 'clock50M'
+Slack : -3.588
+TNS   : -72.499
+
+Type  : Slow 1200mV 85C Model Setup 'CountTimer:C0|clocko'
+Slack : -3.367
+TNS   : -15.314
+
+Type  : Slow 1200mV 85C Model Setup 'CountTimer:C4|clocko'
+Slack : -3.289
+TNS   : -12.364
+
+Type  : Slow 1200mV 85C Model Setup 'CountTimer:C1|clocko'
+Slack : -3.067
+TNS   : -14.091
+
+Type  : Slow 1200mV 85C Model Setup 'CountTimer:C3|clocko'
+Slack : -2.929
+TNS   : -13.550
+
+Type  : Slow 1200mV 85C Model Setup 'CountTimer:C2|clocko'
+Slack : -2.778
+TNS   : -13.747
+
+Type  : Slow 1200mV 85C Model Setup 'key[0]'
+Slack : -2.091
+TNS   : -22.422
+
+Type  : Slow 1200mV 85C Model Hold 'clock50M'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_divisor:U0|clock1k'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Game2:T2|A2'
+Slack : 0.657
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'key[0]'
+Slack : 0.780
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CountTimer:C2|clocko'
+Slack : 0.819
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Game1:T1|b'
+Slack : 0.936
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CountTimer:C4|clocko'
+Slack : 1.126
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CountTimer:C1|clocko'
+Slack : 1.208
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CountTimer:C0|clocko'
+Slack : 1.309
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CountTimer:C3|clocko'
+Slack : 1.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk_divisor:U0|clock1k'
+Slack : -2.041
+TNS   : -48.464
+
+Type  : Slow 1200mV 85C Model Recovery 'CountTimer:C3|clocko'
+Slack : -0.945
+TNS   : -3.458
+
+Type  : Slow 1200mV 85C Model Recovery 'CountTimer:C1|clocko'
+Slack : -0.923
+TNS   : -3.642
+
+Type  : Slow 1200mV 85C Model Recovery 'CountTimer:C4|clocko'
+Slack : -0.908
+TNS   : -3.310
+
+Type  : Slow 1200mV 85C Model Recovery 'CountTimer:C2|clocko'
+Slack : -0.740
+TNS   : -2.846
+
+Type  : Slow 1200mV 85C Model Recovery 'CountTimer:C0|clocko'
+Slack : -0.653
+TNS   : -2.498
+
+Type  : Slow 1200mV 85C Model Removal 'CountTimer:C4|clocko'
+Slack : 0.931
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CountTimer:C3|clocko'
+Slack : 0.970
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CountTimer:C0|clocko'
+Slack : 0.971
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CountTimer:C2|clocko'
+Slack : 1.060
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CountTimer:C1|clocko'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk_divisor:U0|clock1k'
+Slack : 1.600
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock50M'
+Slack : -3.000
+TNS   : -68.941
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'key[0]'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_divisor:U0|clock1k'
+Slack : -1.403
+TNS   : -57.523
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Game1:T1|b'
+Slack : -1.403
+TNS   : -33.672
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Game2:T2|A2'
+Slack : -1.403
+TNS   : -33.672
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CountTimer:C0|clocko'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CountTimer:C1|clocko'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CountTimer:C2|clocko'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CountTimer:C3|clocko'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CountTimer:C4|clocko'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 0C Model Setup 'Game1:T1|b'
+Slack : -5.454
+TNS   : -124.383
+
+Type  : Slow 1200mV 0C Model Setup 'Game2:T2|A2'
+Slack : -4.578
+TNS   : -102.404
+
+Type  : Slow 1200mV 0C Model Setup 'clk_divisor:U0|clock1k'
+Slack : -3.967
+TNS   : -87.441
+
+Type  : Slow 1200mV 0C Model Setup 'clock50M'
+Slack : -3.242
+TNS   : -63.632
+
+Type  : Slow 1200mV 0C Model Setup 'CountTimer:C0|clocko'
+Slack : -3.035
+TNS   : -13.899
+
+Type  : Slow 1200mV 0C Model Setup 'CountTimer:C4|clocko'
+Slack : -2.957
+TNS   : -11.228
+
+Type  : Slow 1200mV 0C Model Setup 'CountTimer:C1|clocko'
+Slack : -2.793
+TNS   : -12.755
+
+Type  : Slow 1200mV 0C Model Setup 'CountTimer:C3|clocko'
+Slack : -2.625
+TNS   : -12.296
+
+Type  : Slow 1200mV 0C Model Setup 'CountTimer:C2|clocko'
+Slack : -2.539
+TNS   : -12.518
+
+Type  : Slow 1200mV 0C Model Setup 'key[0]'
+Slack : -1.746
+TNS   : -18.494
+
+Type  : Slow 1200mV 0C Model Hold 'clock50M'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_divisor:U0|clock1k'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'key[0]'
+Slack : 0.609
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Game2:T2|A2'
+Slack : 0.684
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CountTimer:C2|clocko'
+Slack : 0.744
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Game1:T1|b'
+Slack : 0.914
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CountTimer:C4|clocko'
+Slack : 1.024
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CountTimer:C1|clocko'
+Slack : 1.114
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CountTimer:C0|clocko'
+Slack : 1.189
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CountTimer:C3|clocko'
+Slack : 1.260
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk_divisor:U0|clock1k'
+Slack : -1.833
+TNS   : -42.642
+
+Type  : Slow 1200mV 0C Model Recovery 'CountTimer:C3|clocko'
+Slack : -0.758
+TNS   : -2.747
+
+Type  : Slow 1200mV 0C Model Recovery 'CountTimer:C1|clocko'
+Slack : -0.749
+TNS   : -2.950
+
+Type  : Slow 1200mV 0C Model Recovery 'CountTimer:C4|clocko'
+Slack : -0.717
+TNS   : -2.583
+
+Type  : Slow 1200mV 0C Model Recovery 'CountTimer:C2|clocko'
+Slack : -0.576
+TNS   : -2.211
+
+Type  : Slow 1200mV 0C Model Recovery 'CountTimer:C0|clocko'
+Slack : -0.500
+TNS   : -1.904
+
+Type  : Slow 1200mV 0C Model Removal 'CountTimer:C4|clocko'
+Slack : 0.860
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CountTimer:C3|clocko'
+Slack : 0.904
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CountTimer:C0|clocko'
+Slack : 0.905
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CountTimer:C2|clocko'
+Slack : 0.990
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CountTimer:C1|clocko'
+Slack : 1.161
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk_divisor:U0|clock1k'
+Slack : 1.521
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock50M'
+Slack : -3.000
+TNS   : -68.941
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'key[0]'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_divisor:U0|clock1k'
+Slack : -1.403
+TNS   : -57.523
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Game1:T1|b'
+Slack : -1.403
+TNS   : -33.672
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Game2:T2|A2'
+Slack : -1.403
+TNS   : -33.672
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CountTimer:C0|clocko'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CountTimer:C1|clocko'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CountTimer:C2|clocko'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CountTimer:C3|clocko'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CountTimer:C4|clocko'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Fast 1200mV 0C Model Setup 'Game1:T1|b'
+Slack : -2.195
+TNS   : -49.395
+
+Type  : Fast 1200mV 0C Model Setup 'Game2:T2|A2'
+Slack : -1.735
+TNS   : -37.922
+
+Type  : Fast 1200mV 0C Model Setup 'clk_divisor:U0|clock1k'
+Slack : -1.322
+TNS   : -24.238
+
+Type  : Fast 1200mV 0C Model Setup 'clock50M'
+Slack : -1.111
+TNS   : -11.487
+
+Type  : Fast 1200mV 0C Model Setup 'CountTimer:C4|clocko'
+Slack : -1.026
+TNS   : -3.915
+
+Type  : Fast 1200mV 0C Model Setup 'CountTimer:C0|clocko'
+Slack : -0.899
+TNS   : -4.338
+
+Type  : Fast 1200mV 0C Model Setup 'CountTimer:C1|clocko'
+Slack : -0.887
+TNS   : -3.994
+
+Type  : Fast 1200mV 0C Model Setup 'CountTimer:C2|clocko'
+Slack : -0.787
+TNS   : -3.806
+
+Type  : Fast 1200mV 0C Model Setup 'CountTimer:C3|clocko'
+Slack : -0.728
+TNS   : -3.595
+
+Type  : Fast 1200mV 0C Model Setup 'key[0]'
+Slack : -0.602
+TNS   : -5.942
+
+Type  : Fast 1200mV 0C Model Hold 'clock50M'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_divisor:U0|clock1k'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CountTimer:C2|clocko'
+Slack : 0.334
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Game2:T2|A2'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CountTimer:C3|clocko'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'key[0]'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CountTimer:C4|clocko'
+Slack : 0.470
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CountTimer:C1|clocko'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CountTimer:C0|clocko'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Game1:T1|b'
+Slack : 0.564
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk_divisor:U0|clock1k'
+Slack : -0.912
+TNS   : -13.154
+
+Type  : Fast 1200mV 0C Model Recovery 'CountTimer:C4|clocko'
+Slack : 0.035
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CountTimer:C3|clocko'
+Slack : 0.053
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CountTimer:C1|clocko'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CountTimer:C2|clocko'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CountTimer:C0|clocko'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CountTimer:C3|clocko'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CountTimer:C0|clocko'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CountTimer:C4|clocko'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CountTimer:C2|clocko'
+Slack : 0.459
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk_divisor:U0|clock1k'
+Slack : 0.469
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CountTimer:C1|clocko'
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock50M'
+Slack : -3.000
+TNS   : -51.574
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'key[0]'
+Slack : -3.000
+TNS   : -4.079
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_divisor:U0|clock1k'
+Slack : -1.000
+TNS   : -41.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Game1:T1|b'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Game2:T2|A2'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CountTimer:C0|clocko'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CountTimer:C1|clocko'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CountTimer:C2|clocko'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CountTimer:C3|clocko'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CountTimer:C4|clocko'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------

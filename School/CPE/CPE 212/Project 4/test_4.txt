@@ -1,0 +1,36 @@
+# Testing Combat: Death with Loot
++ r 123 h "Jimmy The Hand"
+i 123 50 a "Leather Boots of the Sneak"
+i 123 50 a "Sneaky Robe"
+i 123 150 p "Potion of Sneakiness"
+
++ m 454 h "Rand Al'Thor"
+i 454 50 a "Boots of the Dragon"
+i 454 50 a "Single Glove of Strength"
+i 454 150 p "Potion of Clarity"
+i 454 150 p "Sweetwater Potion"
+
++ w 867 d "Thorin Oakenshield"
+i 867 150 m "Fine Plate Armor"
+i 867 120 m "Boots of Strength"
+i 867 10 r "Gold"
+i 867 10 p "Potion of Strength"
+p p i 123
+
+v goblin_1.txt
+
+c a 867 2
+c a 454 2
+c a 123 2
+p p a
+
+c e 1 123
+
+# print all enemies' status
+p e a
+# print all party status
+p p a 
+# print each person's inventory
+p p i 123
+p p i 454
+p p i 867 

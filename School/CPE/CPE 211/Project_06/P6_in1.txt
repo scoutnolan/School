@@ -1,0 +1,4 @@
+4 4 2
+Max Key 10 10 10 10 20 20 20 20 100 100
+Franklin Ben 10 10 10 10 20 20 20 20 100 100
+Washingtonian George 10 10 0 10 20 0 0 20 100 80

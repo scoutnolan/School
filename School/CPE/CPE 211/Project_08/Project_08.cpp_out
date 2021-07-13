@@ -1,0 +1,584 @@
+Solution Comparison for Project_08
+------------------------------------
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_08/P8_in1.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in1.txt
+
+Enter in the name of the output file: Project_08_output1.txt
+
+************************************************************
+===>  Reading the title of the first employee failed.
+===>  The input file contained a directory title only
+===>  No employee information was written to the output file
+************************************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in1.txt
+
+Enter in the name of the output file: Project_08_output1.txt
+
+************************************************************
+===>  Reading the title of the first employee failed.
+===>  The input file contained a directory title only
+===>  No employee information was written to the output file
+************************************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P8_in1.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in1	Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in1
+
+Enter in the name of the output file: Project_08_output1.txt					Enter in the name of the output file: Project_08_output1.txt
+
+************************************************************					************************************************************
+===>  Reading the title of the first employee failed.						===>  Reading the title of the first employee failed.
+===>  The input file contained a directory title only						===>  The input file contained a directory title only
+===>  No employee information was written to the output file					===>  No employee information was written to the output file
+************************************************************					************************************************************
+
+
+============================================							============================================
+Contents of output file are below this line							Contents of output file are below this line
+============================================							============================================
+Employee directory for ABC Company								Employee directory for ABC Company
+************************************************************					************************************************************
+=======  End Of Output File Contents =======							=======  End Of Output File Contents =======
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_08/P8_in2.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in2.txt
+
+Enter in the name of the output file: Project_08_output2.txt
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in2.txt
+
+Enter in the name of the output file: Project_08_output2.txt
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P8_in2.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in2	Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in2
+
+Enter in the name of the output file: Project_08_output2.txt					Enter in the name of the output file: Project_08_output2.txt
+
+
+============================================							============================================
+Contents of output file are below this line							Contents of output file are below this line
+============================================							============================================
+          XYZ Corporation Employee Directory							          XYZ Corporation Employee Directory
+************************************************************					************************************************************
+                         Employee #1								                         Employee #1
+Mr. Ronald Bowman										Mr. Ronald Bowman
+123 Skipping Rock Lane										123 Skipping Rock Lane
+Huntsville, Alabama, 35899-0089									Huntsville, Alabama, 35899-0089
+256-555-1234(H)											256-555-1234(H)
+652-555-0011(C)											652-555-0011(C)
+256-556-6789(W)											256-556-6789(W)
+************************************************************					************************************************************
+                         Employee #2								                         Employee #2
+Mrs. Susan Edward-Smith										Mrs. Susan Edward-Smith
+42 Comet Court											42 Comet Court
+Baileys Cove, Alabama, 35876-0055								Baileys Cove, Alabama, 35876-0055
+256-555-6767(H)											256-555-6767(H)
+652-555-1234(C)											652-555-1234(C)
+256-556-0012(W)											256-556-0012(W)
+************************************************************					************************************************************
+                         Employee #3								                         Employee #3
+Dr. Samuel Hulbert										Dr. Samuel Hulbert
+1000 Mountain Top Parkway									1000 Mountain Top Parkway
+Hampton Cove, Alabama, 35888-5888								Hampton Cove, Alabama, 35888-5888
+256-555-0000(H)											256-555-0000(H)
+652-555-0001(C)											652-555-0001(C)
+256-556-0001(W)											256-556-0001(W)
+************************************************************					************************************************************
+=======  End Of Output File Contents =======							=======  End Of Output File Contents =======
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_08/P8_in3.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in3.txt
+
+Enter in the name of the output file: Project_08_output3.txt
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in3.txt
+
+Enter in the name of the output file: Project_08_output3.txt
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P8_in3.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in3	Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in3
+
+Enter in the name of the output file: Project_08_output3.txt					Enter in the name of the output file: Project_08_output3.txt
+
+
+============================================							============================================
+Contents of output file are below this line							Contents of output file are below this line
+============================================							============================================
+          Employee Directory for XYZ Corporation						          Employee Directory for XYZ Corporation
+************************************************************					************************************************************
+                         Employee #1								                         Employee #1
+Mr. Ronald Bowman										Mr. Ronald Bowman
+123 Skipping Rock Lane										123 Skipping Rock Lane
+Huntsville, Alabama, 35899-0089									Huntsville, Alabama, 35899-0089
+256-555-1234(H)											256-555-1234(H)
+652-555-0011(C)											652-555-0011(C)
+256-556-6789(W)											256-556-6789(W)
+************************************************************					************************************************************
+                         Employee #2								                         Employee #2
+Mrs. Susan Edward-Smith										Mrs. Susan Edward-Smith
+42 Comet Court											42 Comet Court
+Baileys Cove, Alabama, 35876-0055								Baileys Cove, Alabama, 35876-0055
+256-555-6767(H)											256-555-6767(H)
+652-555-1234(C)											652-555-1234(C)
+256-556-0012(W)											256-556-0012(W)
+************************************************************					************************************************************
+                         Employee #3								                         Employee #3
+Dr. Samuel Hulbert										Dr. Samuel Hulbert
+1000 Mountain Top Parkway									1000 Mountain Top Parkway
+Hampton Cove, Alabama, 35888-5888								Hampton Cove, Alabama, 35888-5888
+256-555-0000(H)											256-555-0000(H)
+652-555-0001(C)											652-555-0001(C)
+256-556-0001(W)											256-556-0001(W)
+************************************************************					************************************************************
+                         Employee #4								                         Employee #4
+Dr. Jack Kevorkian										Dr. Jack Kevorkian
+93478 No Pain Drive										93478 No Pain Drive
+Huntsville, Alabama, 35899-1234									Huntsville, Alabama, 35899-1234
+256-566-7246(H)											256-566-7246(H)
+652-566-7246(C)											652-566-7246(C)
+714-965-4765(W)											714-965-4765(W)
+************************************************************					************************************************************
+                         Employee #5								                         Employee #5
+Mr. Buzz Aldrin											Mr. Buzz Aldrin
+4321 Blast Off Way										4321 Blast Off Way
+Baileys Cove, Alabama, 35876-8734								Baileys Cove, Alabama, 35876-8734
+256-762-1212(H)											256-762-1212(H)
+845-347-8375(C)											845-347-8375(C)
+256-673-3422(W)											256-673-3422(W)
+************************************************************					************************************************************
+=======  End Of Output File Contents =======							=======  End Of Output File Contents =======
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_08/P8_in4.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in4.txt
+
+Enter in the name of the output file: Project_08_output4.txt
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in4.txt
+
+Enter in the name of the output file: Project_08_output4.txt
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P8_in4.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in4	Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in4
+
+Enter in the name of the output file: Project_08_output4.txt					Enter in the name of the output file: Project_08_output4.txt
+
+
+============================================							============================================
+Contents of output file are below this line							Contents of output file are below this line
+============================================							============================================
+          Directory for XYZ Corporation								          Directory for XYZ Corporation
+************************************************************					************************************************************
+                         Employee #1								                         Employee #1
+Mr. Ronald Bowman										Mr. Ronald Bowman
+123 Skipping Rock Lane										123 Skipping Rock Lane
+Huntsville, Alabama, 35899-0089									Huntsville, Alabama, 35899-0089
+256-555-1234(H)											256-555-1234(H)
+652-555-0011(C)											652-555-0011(C)
+256-556-6789(W)											256-556-6789(W)
+************************************************************					************************************************************
+=======  End Of Output File Contents =======							=======  End Of Output File Contents =======
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing Invalid input file then correct
+                             ###  Testing Invalid Input File: Not/A/File.TXT
+                             ###  Testing input file: /home/work/cpe211data/Project_08/P8_in5.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): Not/A/File.TXT
+
+************************************************************
+==> Not/A/File.TXT is an invalid file!! Try Again.
+************************************************************
+
+Enter in the name of the input file (ctrl-c to exit): not/an/input/file.txt
+
+************************************************************
+==> not/an/input/file.txt is an invalid file!! Try Again.
+************************************************************
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in5.txt
+
+Enter in the name of the output file: Project_08_output5.txt
+
+************************************************
+===>  Reading the directory title failed.
+===>  Therefore, the input file is empty.
+===>  No information written to the output file
+************************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+==================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): Not/A/File.TXT
+
+************************************************************
+==> Not/A/File.TXT is an invalid file!! Try Again.
+************************************************************
+
+Enter in the name of the input file (ctrl-c to exit): not/an/input/file.txt
+
+************************************************************
+==> not/an/input/file.txt is an invalid file!! Try Again.
+************************************************************
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in5.txt
+
+Enter in the name of the output file: Project_08_output5.txt
+
+************************************************
+===>  Reading the directory title failed.
+===>  Therefore, the input file is empty.
+===>  No information written to the output file
+************************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P8_in5.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file (ctrl-c to exit): Not/A/File.TXT				Enter in the name of the input file (ctrl-c to exit): Not/A/File.TXT
+
+************************************************************					************************************************************
+==> Not/A/File.TXT is an invalid file!! Try Again.						==> Not/A/File.TXT is an invalid file!! Try Again.
+************************************************************					************************************************************
+
+Enter in the name of the input file (ctrl-c to exit): not/an/input/file.txt			Enter in the name of the input file (ctrl-c to exit): not/an/input/file.txt
+
+************************************************************					************************************************************
+==> not/an/input/file.txt is an invalid file!! Try Again.					==> not/an/input/file.txt is an invalid file!! Try Again.
+************************************************************					************************************************************
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in5	Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in5
+
+Enter in the name of the output file: Project_08_output5.txt					Enter in the name of the output file: Project_08_output5.txt
+
+************************************************						************************************************
+===>  Reading the directory title failed.							===>  Reading the directory title failed.
+===>  Therefore, the input file is empty.							===>  Therefore, the input file is empty.
+===>  No information written to the output file							===>  No information written to the output file
+************************************************						************************************************
+
+
+============================================							============================================
+Contents of output file are below this line							Contents of output file are below this line
+============================================							============================================
+=======  End Of Output File Contents =======							=======  End Of Output File Contents =======
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_08/P8_in6.txt
+                             ###  Testing Invalid Output File
+                             ###  Testing Invalid Output File then correct
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+==================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in6.txt
+
+Enter in the name of the output file: Not/A/File.TXT
+
+************************************************************
+==> Not/A/File.TXT is an invalid file!! Try Again.
+************************************************************
+
+Enter in the name of the output file (ctrl-c to exit): not/an/input/file.txt
+
+************************************************************
+==> not/an/input/file.txt is an invalid file!! Try Again.
+************************************************************
+
+Enter in the name of the output file (ctrl-c to exit): Project_08_output6.txt
+
+************************************************
+===>  Reading the directory title failed.
+===>  Therefore, the input file is empty.
+===>  No information written to the output file
+************************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+==================== Start of Output ============================================
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in6.txt
+
+Enter in the name of the output file: Not/A/File.TXT
+
+************************************************************
+==> Not/A/File.TXT is an invalid file!! Try Again.
+************************************************************
+
+Enter in the name of the output file (ctrl-c to exit): not/an/input/file.txt
+
+************************************************************
+==> not/an/input/file.txt is an invalid file!! Try Again.
+************************************************************
+
+Enter in the name of the output file (ctrl-c to exit): Project_08_output6.txt
+
+************************************************
+===>  Reading the directory title failed.
+===>  Therefore, the input file is empty.
+===>  No information written to the output file
+************************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P8_in6.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in6	Enter in the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_08/P8_in6
+
+Enter in the name of the output file: Not/A/File.TXT						Enter in the name of the output file: Not/A/File.TXT
+
+************************************************************					************************************************************
+==> Not/A/File.TXT is an invalid file!! Try Again.						==> Not/A/File.TXT is an invalid file!! Try Again.
+************************************************************					************************************************************
+
+Enter in the name of the output file (ctrl-c to exit): not/an/input/file.txt			Enter in the name of the output file (ctrl-c to exit): not/an/input/file.txt
+
+************************************************************					************************************************************
+==> not/an/input/file.txt is an invalid file!! Try Again.					==> not/an/input/file.txt is an invalid file!! Try Again.
+************************************************************					************************************************************
+
+Enter in the name of the output file (ctrl-c to exit): Project_08_output6.txt			Enter in the name of the output file (ctrl-c to exit): Project_08_output6.txt
+
+************************************************						************************************************
+===>  Reading the directory title failed.							===>  Reading the directory title failed.
+===>  Therefore, the input file is empty.							===>  Therefore, the input file is empty.
+===>  No information written to the output file							===>  No information written to the output file
+************************************************						************************************************
+
+
+============================================							============================================
+Contents of output file are below this line							Contents of output file are below this line
+============================================							============================================
+=======  End Of Output File Contents =======							=======  End Of Output File Contents =======

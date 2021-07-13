@@ -1,0 +1,121 @@
+
+# Testing Combat: Death with Loot
+
+UID: 123
+Inventory for: Jimmy The Hand
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+Potion    Low Quality Health Potion          5      
+Potion    Potion of Sneakiness               150    
+Weapon    Starter Daggers                    100    
+Accessory Leather Boots of the Sneak         50     
+Accessory Sneaky Robe                        50     
+--------------------------------------------------------------------
+Reading input file: goblin_1.txt
+Thorin Oakenshield attacks Goblin with Starter Longsword for 15 points
+Goblin takes 15 points of damage.
+Rand Al'Thor attacks Goblin with Simple Staff for 10 points
+Goblin takes 10 points of damage.
+Jimmy The Hand attacks Goblin with Starter Daggers for 15 points
+Goblin takes 15 points of damage.
+Goblin has died.
+Jimmy The Hand loots Goblin
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+Potion    Potion of Superior Healing         15     
+Weapon    Pointy Stick                       1      
+RawGold   Gold                               10     
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+Weapon    Pointy Stick                       1      
+RawGold   Gold                               10     
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+RawGold   Gold                               10     
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+                      Party Screen: Heroes
+--------------------------------------------------------------------
+ID   Name              Level  Health    Race    Job
+--------------------------------------------------------------------
+123  Jimmy The Hand      1      100     Human   Rogue
+454  Rand Al'Thor        1      50      Human   Mage
+867  Thorin Oakenshield  1      150     Dwarf   Warrior
+--------------------------------------------------------------------
+Goblin attacks Jimmy The Hand with Pointy Stick for 6 points
+Jimmy The Hand takes 6 points of damage.
+# print all enemies' status
+--------------------------------------------------------------------
+                      Party Screen: Enemies
+--------------------------------------------------------------------
+ID   Name              Level  Health    Race    Job
+--------------------------------------------------------------------
+1    Goblin              1      30      Goblin  Goblin
+3    Goblin              1      30      Goblin  Goblin
+--------------------------------------------------------------------
+# print all party status
+--------------------------------------------------------------------
+                      Party Screen: Heroes
+--------------------------------------------------------------------
+ID   Name              Level  Health    Race    Job
+--------------------------------------------------------------------
+123  Jimmy The Hand      1      94      Human   Rogue
+454  Rand Al'Thor        1      50      Human   Mage
+867  Thorin Oakenshield  1      150     Dwarf   Warrior
+--------------------------------------------------------------------
+# print each person's inventory
+UID: 123
+Inventory for: Jimmy The Hand
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+Potion    Low Quality Health Potion          5      
+Potion    Potion of Sneakiness               150    
+Potion    Potion of Superior Healing         15     
+Weapon    Starter Daggers                    100    
+Weapon    Pointy Stick                       1      
+Accessory Leather Boots of the Sneak         50     
+Accessory Sneaky Robe                        50     
+--------------------------------------------------------------------
+UID: 454
+Inventory for: Rand Al'Thor
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+Potion    Potion of Clarity                  150    
+Potion    Sweetwater Potion                  150    
+Weapon    Simple Staff                       100    
+Accessory Boots of the Dragon                50     
+Accessory Single Glove of Strength           50     
+--------------------------------------------------------------------
+UID: 867
+Inventory for: Thorin Oakenshield
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+Potion    Potion of Strength                 10     
+Weapon    Starter Longsword                  100    
+Armor     Fine Plate Armor                   150    
+Armor     Boots of Strength                  120    
+RawGold   Gold                               10     
+--------------------------------------------------------------------

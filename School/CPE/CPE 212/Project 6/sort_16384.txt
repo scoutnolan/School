@@ -1,0 +1,65 @@
+Running with threshold of: 16384
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 100
+Running Sequential
+Running parallel
+Sequential Time: 140us
+Parallel Time: 140us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 500
+Running Sequential
+Running parallel
+Sequential Time: 699us
+Parallel Time: 694us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 1000
+Running Sequential
+Running parallel
+Sequential Time: 1414us
+Parallel Time: 1411us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 10000
+Running Sequential
+Running parallel
+Sequential Time: 15445us
+Parallel Time: 15516us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 25000
+Running Sequential
+Running parallel
+Sequential Time: 38411us
+Parallel Time: 20908us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 50000
+Running Sequential
+Running parallel
+Sequential Time: 77547us
+Parallel Time: 23629us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 100000
+Running Sequential
+Running parallel
+Sequential Time: 156ms
+Parallel Time: 321ms
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 250000
+Running Sequential
+Running parallel
+Sequential Time: 382ms
+Parallel Time: 779ms
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 500000
+Running Sequential
+Running parallel
+Sequential Time: 774ms
+Parallel Time: 1585ms
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 1000000
+Running Sequential
+Running parallel
+Sequential Time: 1572ms
+Parallel Time: 3248ms
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 2500000
+Running Sequential
+Running parallel

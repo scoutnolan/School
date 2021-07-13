@@ -1,0 +1,46 @@
+          Employee Directory for XYZ Corporation
+Mr.
+123 Skipping Rock Lane
+652-555-0011
+Bowman
+256-555-1234
+Huntsville, Alabama
+Ronald
+256-556-6789
+35899-0089
+Mrs.
+42 Comet Court
+652-555-1234
+Edward-Smith
+256-555-6767
+Baileys Cove, Alabama
+Susan
+256-556-0012
+35876-0055
+Dr.
+1000 Mountain Top Parkway
+652-555-0001
+Hulbert
+256-555-0000
+Hampton Cove, Alabama
+Samuel
+256-556-0001
+35888-5888
+Dr.
+93478 No Pain Drive
+652-566-7246
+Kevorkian
+256-566-7246
+Huntsville, Alabama
+Jack
+714-965-4765
+35899-1234
+Mr.
+4321 Blast Off Way
+845-347-8375
+Aldrin
+256-762-1212
+Baileys Cove, Alabama
+Buzz
+256-673-3422
+35876-8734

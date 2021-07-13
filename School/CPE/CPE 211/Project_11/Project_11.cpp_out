@@ -1,0 +1,606 @@
+Solution Comparison for Project_11
+------------------------------------
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_11/P11_in1.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in1.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----
+1              0         0         5         0         0         1         6
+2              0         0         5         0         0         1         6
+3              0         5         0         0         0         1         6
+4              5         0         0         0         0         1         6
+5              0         0         0         10        9         1         20
+--------------------------------------------------------------------------------
+Totals         5         5         10        10        9         5         44
+Percent        11.36     11.36     22.73     22.73     20.45     11.36     
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in1.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----
+1              0         0         5         0         0         1         6
+2              0         0         5         0         0         1         6
+3              0         5         0         0         0         1         6
+4              5         0         0         0         0         1         6
+5              0         0         0         10        9         1         20
+--------------------------------------------------------------------------------
+Totals         5         5         10        10        9         5         44
+Percent        11.36     11.36     22.73     22.73     20.45     11.36     
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P11_in1.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in1.txt		Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in1.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total		Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----		-----------    -----     -----     ------    -----     ------    -----     -----
+1              0         0         5         0         0         1         6			1              0         0         5         0         0         1         6
+2              0         0         5         0         0         1         6			2              0         0         5         0         0         1         6
+3              0         5         0         0         0         1         6			3              0         5         0         0         0         1         6
+4              5         0         0         0         0         1         6			4              5         0         0         0         0         1         6
+5              0         0         0         10        9         1         20			5              0         0         0         10        9         1         20
+--------------------------------------------------------------------------------		--------------------------------------------------------------------------------
+Totals         5         5         10        10        9         5         44			Totals         5         5         10        10        9         5         44
+Percent        11.36     11.36     22.73     22.73     20.45     11.36     			Percent        11.36     11.36     22.73     22.73     20.45     11.36     
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_11/P11_in2.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in2.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----
+1              1         29        1         1         9         1         42
+2              0         8         0         0         3         1         12
+3              1         26        2         0         8         1         38
+4              5         6         0         0         10        1         22
+5              0         0         12        8         0         1         21
+6              0         0         0         28        0         1         29
+7              26        0         0         0         0         1         27
+8              0         26        0         0         0         1         27
+9              0         0         10        0         0         1         11
+--------------------------------------------------------------------------------
+Totals         33        95        25        37        30        9         229
+Percent        14.41     41.48     10.92     16.16     13.10     3.93      
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in2.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----
+1              1         29        1         1         9         1         42
+2              0         8         0         0         3         1         12
+3              1         26        2         0         8         1         38
+4              5         6         0         0         10        1         22
+5              0         0         12        8         0         1         21
+6              0         0         0         28        0         1         29
+7              26        0         0         0         0         1         27
+8              0         26        0         0         0         1         27
+9              0         0         10        0         0         1         11
+--------------------------------------------------------------------------------
+Totals         33        95        25        37        30        9         229
+Percent        14.41     41.48     10.92     16.16     13.10     3.93      
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P11_in2.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in2.txt		Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in2.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total		Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----		-----------    -----     -----     ------    -----     ------    -----     -----
+1              1         29        1         1         9         1         42			1              1         29        1         1         9         1         42
+2              0         8         0         0         3         1         12			2              0         8         0         0         3         1         12
+3              1         26        2         0         8         1         38			3              1         26        2         0         8         1         38
+4              5         6         0         0         10        1         22			4              5         6         0         0         10        1         22
+5              0         0         12        8         0         1         21			5              0         0         12        8         0         1         21
+6              0         0         0         28        0         1         29			6              0         0         0         28        0         1         29
+7              26        0         0         0         0         1         27			7              26        0         0         0         0         1         27
+8              0         26        0         0         0         1         27			8              0         26        0         0         0         1         27
+9              0         0         10        0         0         1         11			9              0         0         10        0         0         1         11
+--------------------------------------------------------------------------------		--------------------------------------------------------------------------------
+Totals         33        95        25        37        30        9         229			Totals         33        95        25        37        30        9         229
+Percent        14.41     41.48     10.92     16.16     13.10     3.93      			Percent        14.41     41.48     10.92     16.16     13.10     3.93      
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_11/P11_in3.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in3.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----
+1              7         7         0         0         0         1         15
+2              0         0         7         0         0         1         8
+3              0         0         0         9         0         1         10
+4              0         0         0         0         0         1         1
+5              0         0         0         0         0         1         1
+6              0         0         0         0         0         1         1
+7              0         0         0         0         0         1         1
+8              0         0         0         0         0         1         1
+9              0         0         0         0         0         1         1
+--------------------------------------------------------------------------------
+Totals         7         7         7         9         0         9         39
+Percent        17.95     17.95     17.95     23.08     0.00      23.08     
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in3.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----
+1              7         7         0         0         0         1         15
+2              0         0         7         0         0         1         8
+3              0         0         0         9         0         1         10
+4              0         0         0         0         0         1         1
+5              0         0         0         0         0         1         1
+6              0         0         0         0         0         1         1
+7              0         0         0         0         0         1         1
+8              0         0         0         0         0         1         1
+9              0         0         0         0         0         1         1
+--------------------------------------------------------------------------------
+Totals         7         7         7         9         0         9         39
+Percent        17.95     17.95     17.95     23.08     0.00      23.08     
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P11_in3.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in3.txt		Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in3.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total		Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----		-----------    -----     -----     ------    -----     ------    -----     -----
+1              7         7         0         0         0         1         15			1              7         7         0         0         0         1         15
+2              0         0         7         0         0         1         8			2              0         0         7         0         0         1         8
+3              0         0         0         9         0         1         10			3              0         0         0         9         0         1         10
+4              0         0         0         0         0         1         1			4              0         0         0         0         0         1         1
+5              0         0         0         0         0         1         1			5              0         0         0         0         0         1         1
+6              0         0         0         0         0         1         1			6              0         0         0         0         0         1         1
+7              0         0         0         0         0         1         1			7              0         0         0         0         0         1         1
+8              0         0         0         0         0         1         1			8              0         0         0         0         0         1         1
+9              0         0         0         0         0         1         1			9              0         0         0         0         0         1         1
+--------------------------------------------------------------------------------		--------------------------------------------------------------------------------
+Totals         7         7         7         9         0         9         39			Totals         7         7         7         9         0         9         39
+Percent        17.95     17.95     17.95     23.08     0.00      23.08     			Percent        17.95     17.95     17.95     23.08     0.00      23.08     
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_11/P11_in4.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in4.txt
+
+************* Input File Is Empty *************
+==> The input file is empty.
+==> Terminating the program.
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in4.txt
+
+************* Input File Is Empty *************
+==> The input file is empty.
+==> Terminating the program.
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P11_in4.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in4.txt		Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in4.txt
+
+************* Input File Is Empty *************							************* Input File Is Empty *************
+==> The input file is empty.									==> The input file is empty.
+==> Terminating the program.									==> Terminating the program.
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing Invalid input file then correct
+                             ###  Testing Invalid Input File: Not/A/File.TXT
+                             ###  Testing input file: /home/work/cpe211data/Project_11/P11_in5.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT
+==> Please try again...
+***********************************************
+
+Enter in the name of the input file: not/an/input/file.txt
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: not/an/input/file.txt
+==> Please try again...
+***********************************************
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in5.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----
+1              0         0         5         0         0         1         6
+2              0         0         5         0         0         1         6
+3              0         5         0         0         0         1         6
+4              5         0         0         0         0         1         6
+5              0         0         0         10        9         1         20
+6              5         5         6         6         4         1         27
+7              0         0         4         11        0         1         16
+8              0         0         0         0         0         1         1
+9              2         2         2         5         0         1         12
+--------------------------------------------------------------------------------
+Totals         12        12        22        32        13        9         100
+Percent        12.00     12.00     22.00     32.00     13.00     9.00      
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+==================== Start of Output ============================================
+
+Enter in the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT
+==> Please try again...
+***********************************************
+
+Enter in the name of the input file: not/an/input/file.txt
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: not/an/input/file.txt
+==> Please try again...
+***********************************************
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in5.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----
+1              0         0         5         0         0         1         6
+2              0         0         5         0         0         1         6
+3              0         5         0         0         0         1         6
+4              5         0         0         0         0         1         6
+5              0         0         0         10        9         1         20
+6              5         5         6         6         4         1         27
+7              0         0         4         11        0         1         16
+8              0         0         0         0         0         1         1
+9              2         2         2         5         0         1         12
+--------------------------------------------------------------------------------
+Totals         12        12        22        32        13        9         100
+Percent        12.00     12.00     22.00     32.00     13.00     9.00      
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P11_in5.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file: Not/A/File.TXT						Enter in the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************							*************** File Open Error ***************
+==> Input file failed to open properly!!							==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT							==> Attempted to open file: Not/A/File.TXT
+==> Please try again...										==> Please try again...
+***********************************************							***********************************************
+
+Enter in the name of the input file: not/an/input/file.txt					Enter in the name of the input file: not/an/input/file.txt
+
+*************** File Open Error ***************							*************** File Open Error ***************
+==> Input file failed to open properly!!							==> Input file failed to open properly!!
+==> Attempted to open file: not/an/input/file.txt						==> Attempted to open file: not/an/input/file.txt
+==> Please try again...										==> Please try again...
+***********************************************							***********************************************
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in5.txt		Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in5.txt
+
+Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total		Line number    Upper     Lower     Digits    Punct     Spaces    Other     Total
+-----------    -----     -----     ------    -----     ------    -----     -----		-----------    -----     -----     ------    -----     ------    -----     -----
+1              0         0         5         0         0         1         6			1              0         0         5         0         0         1         6
+2              0         0         5         0         0         1         6			2              0         0         5         0         0         1         6
+3              0         5         0         0         0         1         6			3              0         5         0         0         0         1         6
+4              5         0         0         0         0         1         6			4              5         0         0         0         0         1         6
+5              0         0         0         10        9         1         20			5              0         0         0         10        9         1         20
+6              5         5         6         6         4         1         27			6              5         5         6         6         4         1         27
+7              0         0         4         11        0         1         16			7              0         0         4         11        0         1         16
+8              0         0         0         0         0         1         1			8              0         0         0         0         0         1         1
+9              2         2         2         5         0         1         12			9              2         2         2         5         0         1         12
+--------------------------------------------------------------------------------		--------------------------------------------------------------------------------
+Totals         12        12        22        32        13        9         100			Totals         12        12        22        32        13        9         100
+Percent        12.00     12.00     22.00     32.00     13.00     9.00      			Percent        12.00     12.00     22.00     32.00     13.00     9.00      
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing Invalid input file then correct
+                             ###  Testing Invalid Input File: Not/A/File.TXT
+                             ###  Testing input file: /home/work/cpe211data/Project_11/P11_in6.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter in the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT
+==> Please try again...
+***********************************************
+
+Enter in the name of the input file: not/an/input/file.txt
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: not/an/input/file.txt
+==> Please try again...
+***********************************************
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in6.txt
+
+************* Input File Is Empty *************
+==> The input file is empty.
+==> Terminating the program.
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+==================== Start of Output ============================================
+
+Enter in the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT
+==> Please try again...
+***********************************************
+
+Enter in the name of the input file: not/an/input/file.txt
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: not/an/input/file.txt
+==> Please try again...
+***********************************************
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in6.txt
+
+************* Input File Is Empty *************
+==> The input file is empty.
+==> Terminating the program.
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P11_in6.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter in the name of the input file: Not/A/File.TXT						Enter in the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************							*************** File Open Error ***************
+==> Input file failed to open properly!!							==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT							==> Attempted to open file: Not/A/File.TXT
+==> Please try again...										==> Please try again...
+***********************************************							***********************************************
+
+Enter in the name of the input file: not/an/input/file.txt					Enter in the name of the input file: not/an/input/file.txt
+
+*************** File Open Error ***************							*************** File Open Error ***************
+==> Input file failed to open properly!!							==> Input file failed to open properly!!
+==> Attempted to open file: not/an/input/file.txt						==> Attempted to open file: not/an/input/file.txt
+==> Please try again...										==> Please try again...
+***********************************************							***********************************************
+
+Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in6.txt		Enter in the name of the input file: /home/work/cpe211data/Project_11/P11_in6.txt
+
+************* Input File Is Empty *************							************* Input File Is Empty *************
+==> The input file is empty.									==> The input file is empty.
+==> Terminating the program.									==> Terminating the program.
+***********************************************							***********************************************
+

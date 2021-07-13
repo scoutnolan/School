@@ -1,0 +1,100 @@
+module fsm_prob5_1 (input X, CLK, output Z)begin
+reg [2:0] state;
+reg [2:0] next_state;
+parameter S0 = 3'd0, S1 = 3'd1, S2 = 3'd2, S3 = 3'd3, S4 = 3'd4, S5 = 3'd5;
+always @(X, state) 
+begin
+	case(state)
+		S0: 
+            if(X)
+                Z = 2b'01;
+			else
+				Z = 2b'00;
+			end          
+		S1: 
+			if(X)
+				Z = 2b'00;
+			else
+				Z = 2b'01;
+			end		  
+		S2: 
+			if(X)
+				Z = 2b'01;
+			else
+				Z = 2b'00;
+			end		  
+		S3: 
+			if(X)
+				Z = 2b'01;
+			else
+				Z = 2b'00;
+			end		  
+		S4: 
+			if(X)
+				Z = 2b'00;
+			else
+				Z = 2b'01;
+			end		  
+		S5: 
+			if(X)
+				Z = 2b'01;
+			else
+				Z = 2b'00;
+			end		  
+		S6:
+			if(X == 0)
+				Z = 2b'01;
+			end
+		default: 
+			next_state == S0;
+	endcase
+end
+
+always @(posedge CLK)
+begin
+	case(state)
+		S0: 
+			if(X)
+				next_state = S2;
+			else
+				next_state = S1;
+			end			  
+		S1: 
+			if(X)
+				next_state = S4;
+			else
+				next_state = S3;
+			end		  
+		S2: 
+			if(X)
+				next_state = S4;
+			else
+				next_state = S4;
+			end		  
+		S3: 
+			if(X)
+				next_state == S5;
+			else
+				next_state == S5;
+			end		  
+		S4: 
+			if(X)
+				next_state == S6;
+			else
+				next_state == S5;
+			end		  
+		S5: 
+			if(X)
+				next_state == S0;
+			else
+				next_state == S0;
+			end		  
+		S6: 
+			if(X == 0)
+				next_state == S0;
+			end
+		default: next_state == S0;
+	endcase
+end
+
+endmodule

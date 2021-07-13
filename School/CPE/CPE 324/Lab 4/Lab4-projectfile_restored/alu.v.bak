@@ -1,0 +1,26 @@
+module alu (
+  input    clk,
+  input  [7:0]  operandA,
+  input  [7:0]  operandB,
+  input  [2:0]  opCode,
+  output [15:0] opResult
+);
+
+  reg  signed [15:0] result;
+  
+  always @(posedge clk)
+  begin
+    case (opCode)
+    3'b000 : result[15:0] <= operandA + operandB; // ADD
+    3'b001 : result[15:0] <= operandA - operandB; // SUBTRACT
+    3'b010 : result[15:0] <= operandA ^ operandB; // XOR
+    3'b011 : result[15:0] <= operandA & operandB; // AND
+    3'b100 : result[15:0] <= operandA | operandB; // OR
+    3'b101 : result[15:0] <= operandA[7:0] *  operandB[7:0]; // MULT
+    3'b110 : result[15:0] <= operandA[7:0] << operandB[3:0]; // LSHIFT
+    default: result[15:0] <= operandB[7:0] >> operandB[3:0]; // RSHIFT
+    endcase
+  end
+  assign opResult = result;
+  
+endmodule

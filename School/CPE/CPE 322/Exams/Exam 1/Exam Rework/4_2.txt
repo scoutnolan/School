@@ -1,0 +1,13 @@
+module TFF(input T, CLK, SETN, output Q, QN)
+always @ (posedge CLK)
+	if(!SETN)
+		Q <= 1;				// SETN input that sets Q high when SETN is low.
+	else
+		if(T)
+			QN <= !Q;		// QN gets the inverse of Q
+		else
+			Q <= Q;			// If Q is low it gets Q
+		end
+	end
+end
+endmodule

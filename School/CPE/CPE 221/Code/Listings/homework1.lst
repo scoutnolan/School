@@ -1,0 +1,19 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000         
+    3 00000000         
+    4 00000000         
+    5 00000000         
+    6 00000000         
+    7 00000000         
+                       
+Command Line: --debug --xref --diag_suppress=9931 --bi --apcs=interwork --depen
+d=.\objects\homework1.d -o.\objects\homework1.o -ID:\Keil_v5\ARM\RV31\INC -ID:\
+Keil_v5\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --predefine="__UVISION_VE
+RSION SETA 529" --list=.\listings\homework1.lst homework1\homework1.s
+332 symbols in table

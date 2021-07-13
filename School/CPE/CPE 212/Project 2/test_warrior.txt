@@ -1,0 +1,40 @@
+# test_warrior.txt - Test Warrior Class
+b
+
+# Testing the creation of a Human Warrior named Phil
++ w h Phil
+
+# Status of Phil
+s w
+b
+
+# Testing the creation of a Goblin named Pickles
++ g g Pickles
+
+# Status of Pickles
+s g
+b
+
+# The Goblin enemy sneak attacks
+a g s w
+b
+
+# The Goblin enemy regular attacks
+a g a w
+b
+
+# The Warrior regular attacks
+a w a
+b
+
+# The Warrior power attacks
+a w s
+b
+
+# The Warrior regular attacks
+a w a
+b
+
+
+- w
+- g

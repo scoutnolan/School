@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CPE324Lab6/Exam2
+vring_osc
+!s110 1618450614
+!i10b 1
+!s100 g3DF0F70mQo9TZXY;l:[J2
+Ii4Y@4?ZMPG>>]>UTE?z@L1
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/Simulation/Ring Oscillator - 1
+w1618428150
+8D:/Simulation/Ring Oscillator - 1/ring_osc.v
+FD:/Simulation/Ring Oscillator - 1/ring_osc.v
+L0 3
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1618450613.000000
+!s107 D:/Simulation/Ring Oscillator - 1/ring_osc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Simulation/Ring Oscillator - 1/ring_osc.v|
+!i113 1
+o-work work
+tCvgOpt 0

@@ -1,0 +1,44 @@
+# Verifies Classroom::AddProjects()
+# Verifies Classroom::AddExams()
+
+s Terryn Fredrickson 01
+
+s Ted Fred 02
+
+s Mara Jade 03
+
+s Jango Fett 04
+
+s Obe-Wan Kenobi 05
+
+s Tallon Karrde 06
+
+s Garm Iblis 07
+
+s Gilad Pellaeon 08
+
+s Sheev Palpatine 09
+
+s Hego Damask 10
+
+p project01.txt
+
+e exam1.txt
+
+p project02.txt
+
+p project03.txt
+
+e exam2.txt
+
+p project04.txt
+
+p project05.txt
+
+e exam3.txt
+
+p project06.txt
+
+f finalexam.txt
+
+a

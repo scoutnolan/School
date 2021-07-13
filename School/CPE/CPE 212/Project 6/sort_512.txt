@@ -1,0 +1,41 @@
+Running with threshold of: 512
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 100
+Running Sequential
+Running parallel
+Sequential Time: 140us
+Parallel Time: 140us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 500
+Running Sequential
+Running parallel
+Sequential Time: 696us
+Parallel Time: 696us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 1000
+Running Sequential
+Running parallel
+Sequential Time: 1412us
+Parallel Time: 2561us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 10000
+Running Sequential
+Running parallel
+Sequential Time: 15580us
+Parallel Time: 38056us
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 25000
+Running Sequential
+Running parallel
+Sequential Time: 38451us
+Parallel Time: 104ms
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 50000
+Running Sequential
+Running parallel
+Sequential Time: 77834us
+Parallel Time: 186ms
++++++++++++++++++++++++++++++++++++++++++
+Beginning size: 100000
+Running Sequential
+Running parallel

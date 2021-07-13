@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Simulation/Ring Oscillator - 1
+vhazard
+Z0 !s110 1618450688
+!i10b 1
+!s100 7>9LP12_U7l8gc8;^dnl^1
+I;8a]DRf=5Uhb;k[6V2QHA2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Simulation/Hazard Detection - 2
+Z3 w1618450684
+Z4 8D:/Simulation/Hazard Detection - 2/hazard_detection.v
+Z5 FD:/Simulation/Hazard Detection - 2/hazard_detection.v
+L0 2
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1618450688.000000
+Z8 !s107 D:/Simulation/Hazard Detection - 2/hazard_detection.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/Simulation/Hazard Detection - 2/hazard_detection.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vtb_behavioral
+R0
+!i10b 1
+!s100 LcSK`FcTIN2HK4E<?251X3
+I1fg3>RBo2m_a>BQDg]Yn31
+R1
+R2
+R3
+R4
+R5
+L0 13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtb_hazard
+!s110 1618420413
+!i10b 1
+!s100 Y9XBbF`]BW=[3L<F8W?TS1
+IUzTW[UYR76nUOJJ_9@dP>0
+R1
+R2
+w1618420409
+R4
+R5
+L0 16
+R6
+r1
+!s85 0
+31
+!s108 1618420413.000000
+R8
+R9
+!i113 1
+R10
+R11

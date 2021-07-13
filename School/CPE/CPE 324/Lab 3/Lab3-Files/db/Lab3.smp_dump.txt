@@ -1,0 +1,6 @@
+
+State Machine - |DE10_LITE_Golden_Top|display_driver:hex_leds|displayState
+Name displayState.SHOW_RESULT displayState.SHOW_OPCODE displayState.SHOW_OPREG 
+displayState.SHOW_RESULT 0 0 0 
+displayState.SHOW_OPREG 1 0 1 
+displayState.SHOW_OPCODE 1 1 0 

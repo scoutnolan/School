@@ -1,0 +1,57 @@
+#include "global.h"
+#include "ui_mainwindow.h"
+#include <QColor>
+
+
+Stick::MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
+{
+    QSqlQuery query;
+    query.exec("CREATE TABLE members (name TEXT, score INT)");        // Create a new table.
+    ui->setupUi(this);
+    Stick::Usernames    UserObject;                         // Usernames Object
+    UserObject.db = QSqlDatabase::addDatabase("QSQLITE");   // Add a new SQLITE database.
+    UserObject.db.setDatabaseName("usernames");             // Set the database name.
+    UserObject.db.open();                                   // Open the database.
+    connect(ui->EButtonM, SIGNAL(clicked()), qApp, SLOT(quit()));           //ExitGame Button that exits Mainwindow
+    connect(ui->SButtonM, SIGNAL(clicked()), this, SLOT(OpenSWindow()));    //Settings Button that opens settings window
+    connect(ui->HButtonM, SIGNAL(clicked()), this, SLOT(OpenHWindow()));    //Host Button that opens host lobby window
+    connect(ui->JButtonM, SIGNAL(clicked()), this, SLOT(OpenJWindow()));    //Join lobby Button that opens join lobby window
+    connect(ui->LButtonM, SIGNAL(clicked()), this, SLOT(OpenLWindow()));    //Leaderboard Button that opens leaderboard window
+}
+
+void Stick::MainWindow::OpenSWindow()  //open settings menu window
+{
+    MySWindow = new Swindow();
+    connect(MySWindow, SIGNAL(colorChosen()), this, SLOT(colorSelect()));
+    MySWindow -> show();
+}
+
+void Stick::MainWindow::OpenHWindow()  //open host game window
+{
+    MyHWindow = new Hwindow();
+    MyHWindow -> show();
+}
+void Stick::MainWindow::OpenJWindow()  //open join lobby window
+{
+    MyJWindow = new Jwindow();
+    MyJWindow -> show();
+}
+void Stick::MainWindow::OpenLWindow()  //open leaderboard window
+{
+    MyLWindow = new Lwindow();
+    MyLWindow -> show();
+}
+
+Stick::MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
+void Stick::MainWindow::colorSelect()
+{
+    this->color = MySWindow->colorFind();
+    qDebug() << "color passed successfully!" << endl;
+}
+

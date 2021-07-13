@@ -1,0 +1,362 @@
+#ifndef GLOBAL_H
+#define GLOBAL_H
+
+#include <QMainWindow>
+#include <QListWidget>
+#include <QStringList>
+#include <QTcpServer>
+#include <QTcpSocket>
+#include <QTimer>
+#include <QHostAddress>
+#include <QKeyEvent>
+#include <QGraphicsItem>
+#include <QColor>
+#include <QGraphicsScene>
+#include <QtDebug>
+#include <QGraphicsView>
+#include <QSqlDatabase>
+#include <QSqlQuery>
+#include <QSqlQueryModel>
+#include <QNetworkProxy>
+#include <QLabel>
+#include <QTime>
+#include "users.db"
+#include <QFocusEvent>
+#include <QWidget>
+#include <Qt>
+#include <QLineEdit>
+#include "message.h"
+#include <QNetworkProxy>
+
+#define HOST_ADDRESS "127.0.0.1"
+
+// ***** UI Class Declaration ***** //
+namespace Ui
+{
+    class MainWindow;
+    class gamewindow;
+    class LobbyWindow;
+    class Swindow;
+    class Hwindow;
+    class Lwindow;
+    class Jwindow;
+    class tcpclient;
+    class tcpserver;
+}
+
+namespace Stick
+{
+    struct Player
+    {
+        int tag;                // Players tag count.
+        int health;             // Players health amount, default??
+        QString name;           // Name of player.
+        int xpos = 0;           // Player x position.
+        int ypos = 0;           // Player y position.
+        int score = 0;          // Needs to be cleared or set to 0 if a new game is made
+        unsigned int UID;       // UID of the user.
+        QRgb color = Qt::red;   // Base color will be red.
+        bool ColorSet = false;  // Color set boolean value, may not use,
+
+        QTcpSocket *client = nullptr;       // For connecting to the server.
+        Player * Playern = nullptr;         // The next player in the lobby.
+
+        // Need a list of players.
+        // Each player in the list has ID, name, score, xpos, ypos, tag count, and color assigned to them
+        // You access each player's data in the list.
+        // Use something like this: Player[i]->ReturnID; to get the players ID.
+
+        // Player Base Constructor.
+        explicit Player();                      // Constructor for the player's base parameters.
+        void PlayerUID(unsigned int UID);       // Sets the player's ID.
+        void PlayerName(int ID, QString name);  // Sets the player's name.
+        void PlayerColor(int ID, QRgb color);   // Sets the player's color.
+        void PlayerScore(int ID, int score);    // Sets the player's score.
+        void PlayerX(int ID, int pos);          // Sets the player's position.
+        void PlayerY(int ID, int pos);          // Sets the player's position.
+        void SetAll(unsigned int uid, QString name, QRgb color);
+
+        // Functions to return each player's data.
+        unsigned int ReturnID(int ID);
+        QString ReturnName(int ID);
+        QRgb ReturnColor(int ID);
+        int ReturnScore(int ID);
+        int ReturnXPos(int ID);
+        int ReturnYPos(int ID);
+        int ReturnHealth(int ID);
+
+        QList<Player*> players;     // Store the player's info.
+    };
+
+    class Usernames
+    {
+        public:
+            QSqlDatabase db;
+            QSqlQuery q;
+    };
+
+    // ***** Lobby class ***** //
+
+//    class Lobby : public QObject // This allows it to use connect statements
+//    {
+//        Q_OBJECT
+//    public:
+//        Lobby();    //default constructor
+//        ~Lobby();
+//        void UpdateClients(QByteArray &msg);            // Sends data to everyone.
+//        bool getPlayer(qint16 id, Player* &player);     // Get the player.
+//    public slots:
+
+//    signals:
+
+//    private:
+//        qint16 NumPlayers = 0;          // Number of players
+//        qint16 nextID = 0;              // Next player ID
+//        Player* FirstPlayer = nullptr;  // First player
+//        Player* LastPlayer = nullptr;   // Last player in list
+//        bool AllDisconnected = false;   // Disconnect all is false.
+//    };
+
+    // ********************************* //
+
+    // ***** Class Lwindow ***** //
+    class Lwindow : public QMainWindow
+    {
+        Q_OBJECT
+
+        public:
+            explicit Lwindow(QWidget *parent = nullptr);
+            ~Lwindow();
+            QStringList LobbyMembers;
+
+        private:
+            Ui::Lwindow *ui;
+    };
+    // ********************************* //
+
+
+    // ***** Class gamewindow ***** //
+    class gamewindow : public QMainWindow
+    {
+        Q_OBJECT
+
+        public:
+            explicit gamewindow(QWidget *parent = nullptr);
+            ~gamewindow();
+            void moveLeft(QGraphicsRectItem* person);
+            void moveRight(QGraphicsRectItem* person);
+            void moveUp(QGraphicsRectItem* person);
+            void moveDown(QGraphicsRectItem* person);
+            void keyPressEvent(QKeyEvent* event);
+            void keyReleaseEvent(QKeyEvent* event);
+            void Attack();
+            void respawn(QGraphicsRectItem* person);
+            void delay();
+            void dodge();
+            void setFocusPolicy(Qt::FocusPolicy  Policy);
+            void timerEvent(QTimerEvent *);
+            void setWindowModality();
+            void dodgeCooldown();
+            void getPlayerPos();
+            void getPNum(int number);
+            void contSetup();
+            void SendPosition(int, int );
+            void UpdatePosition(int, int);
+            void UpdatePositionClient(int, int, int);
+            void SendXYPos(int ID, qreal x, qreal y);
+            void readpos();
+            void UpdatePositionNew(int ID, int x, int y);
+
+            QGraphicsRectItem* player;
+            QGraphicsRectItem* player2;
+            QGraphicsRectItem* player3;
+            QGraphicsRectItem* player4;
+            QGraphicsRectItem* player5;
+            QLabel *attackL;
+            QGraphicsEllipseItem* attackCircle;
+            int playerCount;
+
+
+        public slots:
+            void CloseGame();
+            void Leaderboard();
+//            void UpdatePos(QTextStream &incomingData);
+        private:
+            //Lobby *lobby = nullptr;
+            double mSpeed = 5.0;
+            QKeyEvent* lastKeyPtr;
+            int lastKeyvent;
+            int left = 0;
+            int right = 0;
+            int up = 0;
+            int down = 0;
+            Ui::gamewindow *ui;
+            QGraphicsScene* scene;
+            int XMAX = 600;
+            int YMAX = 450;
+            int playerOneSpawnX = 0;
+            int playerOneSpawnY = 0;
+            int playerTwoSpawnX = 600;
+            int playerTwoSpawnY = 0;
+            int playerThreeSpawnX = 300;
+            int playerThreeSpawnY = 225;
+            int playerFourSpawnX = 0;
+            int playerFourSpawnY = 450;
+            int playerFiveSpawnX = 600;
+            int playerFiveSpawnY = 450;
+            int collision = 1;
+            int attackEnabed = 1;
+            int hit = 0;
+            Lwindow* MyLWindow;
+            QMap<int, bool> keys;
+    };
+    // ********************************* //
+
+
+    // ***** Class  Swindow ***** //
+    class Swindow : public QMainWindow
+    {
+        Q_OBJECT
+
+        public:
+            void closeEvent(QCloseEvent *event);
+            explicit Swindow(QWidget *parent = nullptr);
+            ~Swindow();
+            QRgb colorFind();
+
+        public slots:
+            void chooseColor();
+            void SetUserColor();
+        signals:
+            int colorChosen();
+
+        private:
+            Ui::Swindow *ui;
+            QRgb favColor;
+            Player* player;
+    };
+    // ********************************* //
+
+
+    // ***** Class  Jwindow ***** //
+    class Jwindow : public QMainWindow
+    {
+        Q_OBJECT
+    signals:
+        void newMessage(QString);
+    public slots:
+        void JoinGame();
+    private slots:
+        void OpenSWindow();
+        void ExitToMenu();
+        void OpenLeaderboard();
+        void on_PortEditJ_textEdited(const QString &arg1);
+        void SendMessage();
+        void displayMessage(const QString& str);
+        void readSocket();
+        void colorSelect();
+
+    public:
+        explicit Jwindow(QWidget *parent = nullptr);
+        ~Jwindow();
+        void SendByteArray(QByteArray &dataToSend);
+        void StartOnRequest(QTextStream&);
+        void sendtoHost(QByteArray&);
+        void UpdateCharacter(QTextStream&);
+
+    private:
+        Ui::Jwindow *ui;
+        QList<Player*> players; // Used to store all of the players info
+        Lwindow* MyLWindow;
+        QTcpSocket* socket;
+        Swindow* MySWindow;
+        Player* player;
+        int color;
+        gamewindow* MyGameWindow;
+    };
+    // ********************************* //
+
+    // ***** Class  Hwindow ***** //
+    class Hwindow : public QMainWindow
+    {
+        Q_OBJECT
+        signals:
+            void newMessage(QString);
+        public:
+            explicit Hwindow(QWidget *parent = nullptr);
+            ~Hwindow();
+            int PlayerNum;
+            void sendtoClients(QByteArray&);
+            void MoveCharacter(QTextStream&);
+        public slots:
+            void readSocket();
+            void HostGame();
+            void StartStickBattle();
+            void OpenLWindow();
+            void onNewConnection();
+            void appendToSocketList(QTcpSocket* newsocket);
+            void displayMessage(const QString& str);
+            void SendMessage();
+            void OpenSWindow();
+            void colorSelect();
+            void updateNum();
+        private slots:
+            void on_HButtonH_clicked();
+            void on_PortEditH_textEdited(const QString &arg1);
+            void on_BButtonH_clicked();
+        private:
+            QTcpSocket* socket;
+            QTcpServer* server;
+            Ui::Hwindow *ui;
+            QList<QTcpSocket*> connection_list;
+            gamewindow* MyGWindow;
+            Lwindow* MyLWindow;
+            Swindow* MySWindow;
+            Jwindow* client;
+            Player* host;
+            int color;
+    };
+    // ********************************* //
+
+
+    // ***** Class MainWindow ***** //
+    class MainWindow : public QMainWindow
+    {
+        Q_OBJECT
+
+        public:
+            explicit MainWindow(QWidget *parent = nullptr);
+            int color;
+            ~MainWindow();
+        public slots:
+            void OpenSWindow(); // Open Settings Window
+            void OpenHWindow(); // Open Host Window
+            void OpenJWindow(); // Open Join Window
+            void OpenLWindow(); // Open Leaderboard Window
+            void colorSelect(); // Select the color.
+        private:
+            Ui::MainWindow *ui;
+            Swindow* MySWindow;
+            Hwindow* MyHWindow;
+            Jwindow* MyJWindow;
+            Lwindow* MyLWindow;
+    };
+    // ********************************* //
+}
+
+    // ***** Class character ***** //
+    class character : public QGraphicsRectItem
+    {
+    public:
+        character(qreal x, qreal y, qreal width, qreal height, QGraphicsItem* parent = nullptr);
+        void keyPressEvent(QKeyEvent* event);
+        void dodge();
+        //void attack();
+    private:
+        int health;
+        qreal dx;
+        qreal dy;
+    };
+    // ********************************* //
+
+#endif // GLOBAL_H

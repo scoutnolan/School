@@ -1,0 +1,1033 @@
+Solution Comparison for Project_05
+------------------------------------
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in1.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in1.txt
+
+--------------------------------------------------
+The package attributes are:
+Package Type..................parcel
+Total Length..................32 inches
+Weight........................5 pounds
+--------------------------------------------------
+The package rate factors are:
+Package Base Rate.............2.25 dollars
+Length Factor Used............1.00
+Weight Factor Used............1.00
+--------------------------------------------------
+The final cost of mailing the package is: $2.25
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in1.txt
+
+--------------------------------------------------
+The package attributes are:
+Package Type..................parcel
+Total Length..................32 inches
+Weight........................5 pounds
+--------------------------------------------------
+The package rate factors are:
+Package Base Rate.............2.25 dollars
+Length Factor Used............1.00
+Weight Factor Used............1.00
+--------------------------------------------------
+The final cost of mailing the package is: $2.25
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in1.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in1.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in1.txt
+
+--------------------------------------------------						--------------------------------------------------
+The package attributes are:									The package attributes are:
+Package Type..................parcel								Package Type..................parcel
+Total Length..................32 inches								Total Length..................32 inches
+Weight........................5 pounds								Weight........................5 pounds
+--------------------------------------------------						--------------------------------------------------
+The package rate factors are:									The package rate factors are:
+Package Base Rate.............2.25 dollars							Package Base Rate.............2.25 dollars
+Length Factor Used............1.00								Length Factor Used............1.00
+Weight Factor Used............1.00								Weight Factor Used............1.00
+--------------------------------------------------						--------------------------------------------------
+The final cost of mailing the package is: $2.25							The final cost of mailing the package is: $2.25
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in2.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in2.txt
+
+--------------------------------------------------
+The package attributes are:
+Package Type..................media
+Total Length..................40 inches
+Weight........................10 pounds
+--------------------------------------------------
+The package rate factors are:
+Package Base Rate.............3.50 dollars
+Length Factor Used............2.50
+Weight Factor Used............3.00
+--------------------------------------------------
+The final cost of mailing the package is: $26.25
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in2.txt
+
+--------------------------------------------------
+The package attributes are:
+Package Type..................media
+Total Length..................40 inches
+Weight........................10 pounds
+--------------------------------------------------
+The package rate factors are:
+Package Base Rate.............3.50 dollars
+Length Factor Used............2.50
+Weight Factor Used............3.00
+--------------------------------------------------
+The final cost of mailing the package is: $26.25
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in2.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in2.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in2.txt
+
+--------------------------------------------------						--------------------------------------------------
+The package attributes are:									The package attributes are:
+Package Type..................media								Package Type..................media
+Total Length..................40 inches								Total Length..................40 inches
+Weight........................10 pounds								Weight........................10 pounds
+--------------------------------------------------						--------------------------------------------------
+The package rate factors are:									The package rate factors are:
+Package Base Rate.............3.50 dollars							Package Base Rate.............3.50 dollars
+Length Factor Used............2.50								Length Factor Used............2.50
+Weight Factor Used............3.00								Weight Factor Used............3.00
+--------------------------------------------------						--------------------------------------------------
+The final cost of mailing the package is: $26.25						The final cost of mailing the package is: $26.25
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in3.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in3.txt
+
+--------------------------------------------------
+The package attributes are:
+Package Type..................bulk
+Total Length..................60 inches
+Weight........................25 pounds
+--------------------------------------------------
+The package rate factors are:
+Package Base Rate.............4.75 dollars
+Length Factor Used............3.75
+Weight Factor Used............4.50
+--------------------------------------------------
+The final cost of mailing the package is: $80.16
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in3.txt
+
+--------------------------------------------------
+The package attributes are:
+Package Type..................bulk
+Total Length..................60 inches
+Weight........................25 pounds
+--------------------------------------------------
+The package rate factors are:
+Package Base Rate.............4.75 dollars
+Length Factor Used............3.75
+Weight Factor Used............4.50
+--------------------------------------------------
+The final cost of mailing the package is: $80.16
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in3.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in3.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in3.txt
+
+--------------------------------------------------						--------------------------------------------------
+The package attributes are:									The package attributes are:
+Package Type..................bulk								Package Type..................bulk
+Total Length..................60 inches								Total Length..................60 inches
+Weight........................25 pounds								Weight........................25 pounds
+--------------------------------------------------						--------------------------------------------------
+The package rate factors are:									The package rate factors are:
+Package Base Rate.............4.75 dollars							Package Base Rate.............4.75 dollars
+Length Factor Used............3.75								Length Factor Used............3.75
+Weight Factor Used............4.50								Weight Factor Used............4.50
+--------------------------------------------------						--------------------------------------------------
+The final cost of mailing the package is: $80.16						The final cost of mailing the package is: $80.16
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in4.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in4.txt
+
+************ Invalid Package Type *************
+==> Error in data file!!!
+==> The package type is incorrect
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in4.txt
+
+************ Invalid Package Type *************
+==> Error in data file!!!
+==> The package type is incorrect
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in4.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in4.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in4.txt
+
+************ Invalid Package Type *************							************ Invalid Package Type *************
+==> Error in data file!!!									==> Error in data file!!!
+==> The package type is incorrect								==> The package type is incorrect
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in5.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in5.txt
+
+*************** File Read Error ***************
+==> Reading of one or more package
+==> parameters failed!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in5.txt
+
+*************** File Read Error ***************
+==> Reading of one or more package
+==> parameters failed!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in5.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in5.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in5.txt
+
+*************** File Read Error ***************							*************** File Read Error ***************
+==> Reading of one or more package								==> Reading of one or more package
+==> parameters failed!!										==> parameters failed!!
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in6.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in6.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in6.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in6.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in6.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in6.txt
+
+*********** Package Parameter Error ***********							*********** Package Parameter Error ***********
+==> One or more of the package parameters							==> One or more of the package parameters
+==> has a negative value!!!									==> has a negative value!!!
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in7.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in7.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in7.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in7.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in7.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in7.txt
+
+*********** Package Parameter Error ***********							*********** Package Parameter Error ***********
+==> One or more of the package parameters							==> One or more of the package parameters
+==> has a negative value!!!									==> has a negative value!!!
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in8.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in8.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in8.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in8.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in8.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in8.txt
+
+*********** Package Parameter Error ***********							*********** Package Parameter Error ***********
+==> One or more of the package parameters							==> One or more of the package parameters
+==> has a negative value!!!									==> has a negative value!!!
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in9.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in9.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in9.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in9.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in9.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in9.txt
+
+*********** Package Parameter Error ***********							*********** Package Parameter Error ***********
+==> One or more of the package parameters							==> One or more of the package parameters
+==> has a negative value!!!									==> has a negative value!!!
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in10.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in10.txt
+
+**************** File Is Empty ****************
+==> Input file is empty.
+==> No information to process.
+==> Terminating program.
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in10.txt
+
+**************** File Is Empty ****************
+==> Input file is empty.
+==> No information to process.
+==> Terminating program.
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in10.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in10.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in10.txt
+
+**************** File Is Empty ****************							**************** File Is Empty ****************
+==> Input file is empty.									==> Input file is empty.
+==> No information to process.									==> No information to process.
+==> Terminating program.									==> Terminating program.
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in11.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in11.txt
+
+************ Invalid Package Type *************
+==> Error in data file!!!
+==> The package type is incorrect
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in11.txt
+
+************ Invalid Package Type *************
+==> Error in data file!!!
+==> The package type is incorrect
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in11.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in11.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in11.txt
+
+************ Invalid Package Type *************							************ Invalid Package Type *************
+==> Error in data file!!!									==> Error in data file!!!
+==> The package type is incorrect								==> The package type is incorrect
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in12.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in12.txt
+
+*************** File Read Error ***************
+==> Reading of one or more package
+==> parameters failed!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in12.txt
+
+*************** File Read Error ***************
+==> Reading of one or more package
+==> parameters failed!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in12.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in12.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in12.txt
+
+*************** File Read Error ***************							*************** File Read Error ***************
+==> Reading of one or more package								==> Reading of one or more package
+==> parameters failed!!										==> parameters failed!!
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in13.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in13.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in13.txt
+
+*********** Package Parameter Error ***********
+==> One or more of the package parameters
+==> has a negative value!!!
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in13.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in13.txt			Enter the name of the input file: /home/work/cpe211data/Project_05/P5_in13.txt
+
+*********** Package Parameter Error ***********							*********** Package Parameter Error ***********
+==> One or more of the package parameters							==> One or more of the package parameters
+==> has a negative value!!!									==> has a negative value!!!
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing Invalid input file then correct
+                             ###  Testing Invalid Input File: Not/A/File.TXT
+                             ###  Testing input file: /home/work/cpe211data/Project_05/P5_in14.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+==================== Start of Output ============================================
+
+Enter the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P5_in14.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file: Not/A/File.TXT						Enter the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************							*************** File Open Error ***************
+==> Input file failed to open properly!!							==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT							==> Attempted to open file: Not/A/File.TXT
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+

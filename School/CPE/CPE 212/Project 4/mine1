@@ -1,0 +1,52 @@
+
+# Testing Party Initialization
+
+UID: 123
+Inventory for: Jimmy The Hand
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+Potion    Low Quality Health Potion          5      
+Potion    Potion of Sneakiness               150    
+Weapon    Starter Daggers                    100    
+Accessory Leather Boots of the Sneak         50     
+Accessory Sneaky Robe                        50     
+--------------------------------------------------------------------
+UID: 454
+Inventory for: Rand Al'Thor
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+Potion    Potion of Clarity                  150    
+Potion    Sweetwater Potion                  150    
+Weapon    Simple Staff                       100    
+Accessory Boots of the Dragon                50     
+Accessory Single Glove of Strength           50     
+--------------------------------------------------------------------
+# Thorin Oakenshield
+UID: 867
+Inventory for: Thorin Oakenshield
+--------------------------------------------------------------------
+                      Inventory Screen 
+--------------------------------------------------------------------
+Type      Name                              Value 
+--------------------------------------------------------------------
+Potion    Potion of Strength                 10     
+Weapon    Starter Longsword                  100    
+Armor     Fine Plate Armor                   150    
+Armor     Boots of Strength                  120    
+RawGold   Gold                               10     
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+                      Party Screen: Heroes
+--------------------------------------------------------------------
+ID   Name              Level  Health    Race    Job
+--------------------------------------------------------------------
+123  Jimmy The Hand      1      100     Human   Rogue
+454  Rand Al'Thor        1      50      Human   Mage
+867  Thorin Oakenshield  1      150     Dwarf   Warrior
+--------------------------------------------------------------------

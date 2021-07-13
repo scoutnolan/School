@@ -1,0 +1,170 @@
+`timescale 1ns/100 ps
+
+module Part3TD;
+	reg A = 0, B = 0, Clock = 0, Reset = 0, Enable = 0;
+	wire S;
+
+	initial
+	  begin
+
+	//time = 0ns
+	
+	Reset = 1;
+	A = 0;
+	B = 0;
+	Enable = 1;
+
+	//time = 10ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 1;
+	Enable = 1;
+	
+	//time = 20ns
+	#10
+	Reset = 0;
+	A = 0;
+	B = 1;
+	Enable = 1;
+
+	//time = 30ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 0;
+	Enable = 1;
+
+
+	//time = 40ns
+	#10
+	Reset = 1;
+	A = 0;
+	B = 0;
+	Enable = 0;
+
+	//time = 50ns
+	#10
+	Reset = 0;
+	A = 0;
+	B = 1;
+	Enable = 1;
+	
+	//time = 60ns
+	#10
+	Reset = 0;
+	A = 0;
+	B = 0;
+	Enable = 1;
+
+	//time = 70ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 0;
+	Enable = 1;
+	
+	//time = 80ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 0;
+	Enable = 1;
+
+	//time = 90ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 0;
+	Enable = 1;
+
+	//time = 100ns
+	#10
+	Reset = 0;
+	A = 0;
+	B = 1;
+	Enable = 1;
+
+	//time = 120ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 1;
+	Enable = 1;
+
+
+	//time = 110ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 1;
+	Enable = 1;
+	
+	//time = 120ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 1;
+	Enable = 1;
+
+	//time = 130ns
+	#10
+	Reset = 0;
+	A = 0;
+	B = 0;
+	Enable = 1;
+
+	//time = 140ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 1;
+	Enable = 1;
+	
+	//time = 150ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 1;
+	Enable = 1;
+
+	//time = 160ns
+	#10
+	Reset = 0;
+	A = 0;
+	B = 1;
+	Enable = 1;
+
+	//time = 170ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 1;
+	Enable = 1;
+
+	//time = 180ns
+	#10
+	Reset = 0;
+	A = 1;
+	B = 0;
+	Enable = 1;
+	
+	//time = 190ns
+	#10
+	Reset = 0;
+	A = 0;
+	B = 0;
+	Enable = 1;
+	end
+
+
+  always
+      begin
+      Clock = #5 ~Clock;
+      end
+
+        
+   // instantiate the negator as the unit under test (uut)
+   Part3TD uut (.A(A),.B(B),.Clock(Clock),.Reset(Reset),.Enable(Enable),.S(S)); 
+
+endmodule

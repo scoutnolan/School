@@ -1,0 +1,413 @@
+Solution Comparison for Project_04
+------------------------------------
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_04/P4_in1.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+Enter name of the input file: 
+
+
+******************** First Line Information ********************
+    Line read: line 1 has a?unique character in it[35]
+       Part 1: line 1 has a[12]
+       Part 2: unique character in it[22]
+34.29 % of the characters are in the first part of the line
+****************************************************************
+
+
+********** Second Line Information **********
+                line number 2
+                $is split in 
+    is split in three$using dollar signs
+*********************************************
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_04/P4_in1.txt
+
+******************** First Line Information ********************
+    Line read: line 1 has a?unique character in it[35]
+       Part 1: line 1 has a[12]
+       Part 2: unique character in it[22]
+34.29% of the characters are in the first part of the line
+****************************************************************
+
+********** Second Line Information **********
+                line number 2
+              is split in three
+             using dollar signs
+*********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P4_in1.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 6 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+Enter name of the input file: 								      <
+
+											      >	Enter the name of the input file: /home/work/cpe211data/Project_04/P4_in1.txt
+
+******************** First Line Information ********************				******************** First Line Information ********************
+    Line read: line 1 has a?unique character in it[35]						    Line read: line 1 has a?unique character in it[35]
+       Part 1: line 1 has a[12]									       Part 1: line 1 has a[12]
+       Part 2: unique character in it[22]							       Part 2: unique character in it[22]
+34.29 % of the characters are in the first part of the line				      |	34.29% of the characters are in the first part of the line
+****************************************************************				****************************************************************
+
+											      <
+********** Second Line Information **********							********** Second Line Information **********
+                line number 2									                line number 2
+                $is split in 								      |	              is split in three
+    is split in three$using dollar signs						      |	             using dollar signs
+*********************************************							*********************************************
+											      >
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_04/P4_in2.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+Enter name of the input file: 
+
+
+******************** First Line Information ********************
+    Line read: line 1 is split here:To divide the line!![41]
+       Part 1: line 1 is split here[20]
+       Part 2: To divide the line!![20]
+48.78 % of the characters are in the first part of the line
+****************************************************************
+
+
+********** Second Line Information **********
+                 Second Line
+                 (is split u
+       is split using(left parentheses
+*********************************************
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_04/P4_in2.txt
+
+******************** First Line Information ********************
+    Line read: line 1 is split here:To divide the line!![41]
+       Part 1: line 1 is split here[20]
+       Part 2: To divide the line!![20]
+48.78% of the characters are in the first part of the line
+****************************************************************
+
+********** Second Line Information **********
+                 Second Line
+               is split using
+              left parentheses
+*********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P4_in2.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 6 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+Enter name of the input file: 								      <
+
+											      >	Enter the name of the input file: /home/work/cpe211data/Project_04/P4_in2.txt
+
+******************** First Line Information ********************				******************** First Line Information ********************
+    Line read: line 1 is split here:To divide the line!![41]					    Line read: line 1 is split here:To divide the line!![41]
+       Part 1: line 1 is split here[20]								       Part 1: line 1 is split here[20]
+       Part 2: To divide the line!![20]								       Part 2: To divide the line!![20]
+48.78 % of the characters are in the first part of the line				      |	48.78% of the characters are in the first part of the line
+****************************************************************				****************************************************************
+
+											      <
+********** Second Line Information **********							********** Second Line Information **********
+                 Second Line									                 Second Line
+                 (is split u								      |	               is split using
+       is split using(left parentheses							      |	              left parentheses
+*********************************************							*********************************************
+											      >
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_04/P4_in3.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+Enter name of the input file: 
+
+
+******************** First Line Information ********************
+    Line read: li:ne 1 is split here To divide the line[40]
+       Part 1: li[2]
+       Part 2: ne 1 is split here To divide the line[37]
+5.000 % of the characters are in the first part of the line
+****************************************************************
+
+
+********** Second Line Information **********
+                   Second
+                   +Line 
+           Line is+split in three
+*********************************************
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_04/P4_in3.txt
+
+******************** First Line Information ********************
+    Line read: li:ne 1 is split here To divide the line[40]
+       Part 1: li[2]
+       Part 2: ne 1 is split here To divide the line[37]
+5.00% of the characters are in the first part of the line
+****************************************************************
+
+********** Second Line Information **********
+                   Second
+                   Line is
+               split in three
+*********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P4_in3.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 6 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+Enter name of the input file: 								      <
+
+											      >	Enter the name of the input file: /home/work/cpe211data/Project_04/P4_in3.txt
+
+******************** First Line Information ********************				******************** First Line Information ********************
+    Line read: li:ne 1 is split here To divide the line[40]					    Line read: li:ne 1 is split here To divide the line[40]
+       Part 1: li[2]										       Part 1: li[2]
+       Part 2: ne 1 is split here To divide the line[37]					       Part 2: ne 1 is split here To divide the line[37]
+5.000 % of the characters are in the first part of the line				      |	5.00% of the characters are in the first part of the line
+****************************************************************				****************************************************************
+
+											      <
+********** Second Line Information **********							********** Second Line Information **********
+                   Second									                   Second
+                   +Line 								      |	                   Line is
+           Line is+split in three							      |	               split in three
+*********************************************							*********************************************
+											      >
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_04/P4_in4.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+Enter name of the input file: 
+**************** File is empty  ****************
+==> Input file is empty.
+==> No information to process.
+==> Terminating Program.
+*
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file: /home/work/cpe211data/Project_04/P4_in4.txt
+
+**************** File Is Empty ****************
+==> Input file is empty.
+==> No information to process.
+==> Terminating program.
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P4_in4.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 2 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+Enter name of the input file: 								      |
+**************** File is empty  ****************					      |	Enter the name of the input file: /home/work/cpe211data/Project_04/P4_in4.txt
+											      >
+											      >	**************** File Is Empty ****************
+==> Input file is empty.									==> Input file is empty.
+==> No information to process.									==> No information to process.
+==> Terminating Program.								      |	==> Terminating program.
+*											      |	***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing Invalid input file then correct
+                             ###  Testing Invalid Input File: Not/A/File.TXT
+                             ###  Testing input file: /home/work/cpe211data/Project_04/P4_in5.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+Enter name of the input file: 
+*************** File Open Error***************
+==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT
+==> Terminating program!!!
+***********************************************
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+==================== Start of Output ============================================
+
+Enter the name of the input file: Not/A/File.TXT
+
+*************** File Open Error ***************
+==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT
+==> Terminating program!!!
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P4_in5.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 2 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+Enter name of the input file: 								      |
+*************** File Open Error***************						      |	Enter the name of the input file: Not/A/File.TXT
+											      >
+											      >	*************** File Open Error ***************
+==> Input file failed to open properly!!							==> Input file failed to open properly!!
+==> Attempted to open file: Not/A/File.TXT							==> Attempted to open file: Not/A/File.TXT
+==> Terminating program!!!									==> Terminating program!!!
+***********************************************							***********************************************
+											      >

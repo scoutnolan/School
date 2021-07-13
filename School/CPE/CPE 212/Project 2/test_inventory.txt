@@ -1,0 +1,37 @@
+# test_inventory.txt - Test Inventory Class
+b
+
+# Testing the creation of a Gnome Mage named Bob
++ m n Bob
+
+# Show Bob's Inventory
+i m
+b
+
+# Testing the creation of a Elf Rogue named Knives
++ r e Knives
+
+# Show Knives' Inventory
+i r
+b
+
+# Testing the creation of a Human Warrior named Phil
++ w h Phil
+
+# Show Phil's Inventory
+i w
+b
+
+# Testing the creation of a Dwarf Cleric named Shamus
++ c d Shamus
+
+# Show Shamus's Inventory
+i c
+b
+
+# Testing the creation of a Goblin named Pickles
++ g g Pickles
+
+# Show Pickles's Inventory
+i g
+b

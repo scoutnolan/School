@@ -1,0 +1,34 @@
+
+# test_inventory.txt - Test Inventory Class
+
+-------------------------
+# Testing the creation of a Gnome Mage named Bob
+
+# Show Bob's Inventory
+Item - Basic Health Potion Value: 10
+Item - Simple Staff Value: 100
+-------------------------
+# Testing the creation of a Elf Rogue named Knives
+
+# Show Knives' Inventory
+Item - Basic Health Potion Value: 10
+Item - Starter Daggers Value: 100
+-------------------------
+# Testing the creation of a Human Warrior named Phil
+
+# Show Phil's Inventory
+Item - Basic Health Potion Value: 10
+Item - Starter Longsword Value: 100
+-------------------------
+# Testing the creation of a Dwarf Cleric named Shamus
+
+# Show Shamus's Inventory
+Item - Basic Health Potion Value: 10
+Item - Simple Wand Value: 100
+-------------------------
+# Testing the creation of a Goblin named Pickles
+
+# Show Pickles's Inventory
+Item - Basic Health Potion Value: 10
+Item - Pointy Stick Value: 1
+-------------------------

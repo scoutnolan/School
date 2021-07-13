@@ -1,0 +1,60 @@
+# test_cleric.txt - Test Cleric Class
+b
+
+# Testing the creation of a Dwarf Cleric named Shamus
++ c d Shamus
+
+# Status of Shamus
+s c
+
+# Testing the creation of a Human Warrior named Phil
++ w h Phil
+
+# Status of Phil
+s w
+b
+
+# Testing the creation of a Goblin named Pickles
++ g g Pickles
+b
+
+# Status of Pickles
+s g
+b
+
+# The Goblin enemy sneak attacks
+a g s w
+b
+
+# The Goblin enemy regular attacks
+a g a w
+b
+
+# Show the Warriors Health after taking damage
+s w
+b
+
+# The Cleric heals the Warrior
+a c s w
+b
+
+# Show the Warriors Health
+s w
+b
+
+# The Warrior regular attacks
+a w a
+b
+
+# The Warrior power attacks
+a w s
+b
+
+# The Cleric regular attacks
+a c a
+b
+
+
+- w
+- c
+- g

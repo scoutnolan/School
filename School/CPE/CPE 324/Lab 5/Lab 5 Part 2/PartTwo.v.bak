@@ -1,0 +1,41 @@
+// Nolan Anderson CPE 324 
+// Lab 5 Part 2
+// Full adder and D-FF
+// 
+
+// D Flip Flop
+module DFF(input D, clk, rst, en, output reg Q);
+	initial
+	begin
+		Q = 0;
+	end
+
+	always @(posedge clk)
+	begin
+		if(rst == 0) begin Q <= 0; end
+		else if (en) begin Q <= D; end
+	end
+endmodule
+
+
+// Full Adder module
+module FullAdder(input A, B, Cin, output Y, Cout);
+	wire al, a2, a3, a4, a5;
+	xor o1(a1, A, B);
+	and o2(a2, A, B);
+	and o3(a3, a1, Cin);
+	or o4(Cout, a2, a3);
+	xor o5(Y, a1, Cin);
+endmodule
+
+
+// Mealy Module
+module Mealy(input A, B, clk, en, rst, output reg S);
+	begin
+	wire w1, w2, w3;
+	assign w4 = S;
+	FullAdder FA(A, B, w2, w3, w1);
+	DFF DF(w1, clk, rst, en, w2);
+	assign S = w2;
+	end
+endmodule	

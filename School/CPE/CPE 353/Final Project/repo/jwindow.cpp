@@ -1,0 +1,233 @@
+#include "global.h"
+#include "ui_jwindow.h"
+extern unsigned short HOST_PORT;
+extern int PlayerCount;
+extern int myID;
+extern QString MyUserName;
+
+Stick::Jwindow::Jwindow(QWidget *parent) :
+    QMainWindow (parent),
+    ui(new Ui::Jwindow)
+{
+    ui->setupUi(this);
+    connect(ui->BButtonJ, SIGNAL(clicked()), this, SLOT(ExitToMenu()));         // Go back button connect statement.
+    connect(ui->JButtonJ, SIGNAL(clicked()), this, SLOT(JoinGame()));           // Join Button connect statement.
+    connect(ui->LButtonJ, SIGNAL(clicked()), this, SLOT(OpenLeaderboard()));    // Go back button connect statement.
+    connect(ui->SendMessageButton, SIGNAL(clicked()), this, SLOT(SendMessage()));
+    connect(ui->SettingsPushButton, SIGNAL(clicked()), this, SLOT(OpenSWindow()));      // Connect statement to open the settings window.
+
+    QRegularExpression usernameRegExp("[a-zA-Z]{5}");                               // Set up validator limiting the username to 5 or less letters
+    ui->UserEditJ->setValidator(new QRegularExpressionValidator(usernameRegExp));   // Set the validator
+}
+
+// ***** Join Game Button ***** //
+void Stick::Jwindow::JoinGame() //connect to hosts TCP server
+{
+    if(ui->UserEditJ->text().isEmpty())
+    {
+        return;
+    }
+
+    socket = new QTcpSocket(this);
+    socket->setProxy(QNetworkProxy::NoProxy);
+    socket->connectToHost(QHostAddress::Any,HOST_PORT);
+
+    qDebug() << "Attempting to Join" << QHostAddress::Any << ":" << HOST_PORT;
+    if(socket->waitForConnected())
+        qDebug() << "Connected to Server";
+    else
+    {
+        qDebug() << "The following error occurred: " << socket->errorString();
+        exit(EXIT_FAILURE);
+    }
+
+    connect(socket, &QTcpSocket::readyRead, this, &Jwindow::readSocket);
+
+    Stick::Usernames Object;
+    QString username = ui->UserEditJ->text();                   // Username is equal to the text edit.
+    MyUserName = ui->UserEditJ->text();
+    QSqlQuery *query = new QSqlQuery(Object.db);                // New SQLquery object.
+    query->prepare("INSERT INTO members VALUES( :name)");       // Prepare to insert.
+    query->bindValue(":name", username);                        // Bind the username
+    query->exec();
+
+    Stick::Player PlayerObject;
+    Player* player = new Player();                      // new player object.
+    PlayerObject.players.append(player);                // Appends the player to the list of players in the player class.
+    player->SetAll(0, ui->UserEditJ->text(), Qt::blue); // Sets the initial variables
+
+
+    if(socket->state() == QAbstractSocket::ConnectedState)
+    {
+        QString username = ui->UserEditJ->text();
+        QString words= "Joined the Game!";
+        QString str= username + ": ";
+        QByteArray out;
+        QTextStream outData(&out, QIODevice::WriteOnly);
+        outData << static_cast<int>(Message::Message) << endl << str << endl << words << endl;
+        if(socket->state() == QAbstractSocket::ConnectedState){
+            socket->write(out);
+            socket->flush();
+        }
+        ui->SendMessageEdit->clear();
+    }
+    else
+        displayMessage("QTCPClient: Not connected");
+}
+
+void Stick::Jwindow::on_PortEditJ_textEdited(const QString &arg1) //get port to join game from text box in Join Game window
+{
+    QRegularExpression PortRegExp("[0-9]{4}");                                  // Limits the input from 0-9 and 4 characters.
+    ui->PortEditJ->setValidator(new QRegularExpressionValidator(PortRegExp));   // Set the validator
+    HOST_PORT =ui->PortEditJ->text().toInt();                                   // Set the host port.
+}
+
+void Stick::Jwindow::readSocket()
+{
+    int dataType;
+    gamewindow mygamewindow;
+    QTcpSocket* insocket = reinterpret_cast<QTcpSocket*>(sender());
+    QByteArray in= insocket->readAll();
+    QTextStream inData(&in, QIODevice::ReadOnly);
+    inData >> dataType;
+    switch (dataType)
+    {
+        // Client to Server
+        case static_cast<int>(Message::StartGame):
+            break;
+        case static_cast<int>(Message::Moved):
+            break;
+        case static_cast<int>(Message::Dodge):
+            break;
+        case static_cast<int>(Message::Tag):
+            break;
+        case static_cast<int>(Message::Die):
+        mygamewindow.updateScoreClient(inData);
+            break;
+        case static_cast<int>(Message::Respawn):
+            break;
+        case static_cast<int>(Message::ExitGame):
+            break;
+        case static_cast<int>(Message::PlayerTag):
+            break;
+
+        // Server to Client
+        case static_cast<int>(Message::Error):
+            break;
+        case static_cast<int>(Message::PlayerColor):
+            break;
+        case static_cast<int>(Message::UpdatePlayerPos):
+            break;
+        case static_cast<int>(Message::TagPressed):
+            break;
+        case static_cast<int>(Message::UpdateLeaderboard):
+            break;
+        case static_cast<int>(Message::SendToLeaderboard):
+            break;
+        case static_cast<int>(Message::LoadGame):
+            break;
+        case static_cast<int>(Message::UpdatePlayerName):
+            break;
+        case static_cast<int>(Message::SetId):
+            inData >> myID;
+            //qDebug() << myID;
+            break;
+        case static_cast<int>(Message::RemoveObject):
+            break;
+        case static_cast<int>(Message::AddObject):
+            break;
+        case static_cast<int>(Message::GameStart):
+            StartOnRequest(inData);
+
+        //Lobby Chat
+        case static_cast<int>(Message::Message):
+        QString str1, str2, str3, str;
+        inData >> str1;
+        inData >> str2;
+        while (!inData.atEnd()) {
+            inData>> str3;
+            str2= str2+" "+str3;
+        }
+        str= str1 + " " +str2;
+        ui->textBrowser->append(str);
+            break;
+    }
+}
+
+void Stick::Jwindow::SendMessage()
+{
+        if(socket->state() == QAbstractSocket::ConnectedState)
+        {
+            QString username = ui->UserEditJ->text();
+            QString words= ui->SendMessageEdit->text();
+            QString str= username + ": ";
+            QByteArray out;
+            QTextStream outData(&out, QIODevice::WriteOnly);
+            outData << static_cast<int>(Message::Message) << endl << str << endl << words << endl;
+
+            //sends message to server
+            if(socket->state() == QAbstractSocket::ConnectedState){
+                socket->write(out);
+                socket->flush();
+            }
+            ui->SendMessageEdit->clear();
+        }
+    else
+        displayMessage("QTCPClient: Not connected");
+}
+
+void Stick::Jwindow::displayMessage(const QString& str)
+{
+    ui->textBrowser->append(str);
+}
+
+// ***** Go back Button ***** //
+void Stick::Jwindow::ExitToMenu()
+{
+    this->close();
+}
+
+void Stick::Jwindow::OpenSWindow()
+{
+    MySWindow = new Swindow();          // Open Settings menu.
+    MySWindow -> show();
+    connect(MySWindow, SIGNAL(colorChosen()), this, SLOT(colorSelect()));
+}
+
+// Open leaderboard window
+void Stick::Jwindow::OpenLeaderboard()
+{
+    MyLWindow = new Lwindow();          // Show leaderboard menu.
+    MyLWindow -> show();
+}
+
+void Stick::Jwindow::StartOnRequest(QTextStream& inData)
+{
+    inData >> PlayerCount;
+    MyGameWindow = new gamewindow();
+    MyGameWindow -> showFullScreen();
+}
+
+Stick::Jwindow::~Jwindow()
+{
+    delete ui;
+}
+
+void Stick::Jwindow::colorSelect()
+{
+    this->color = MySWindow->colorFind();
+    //qDebug() << "color passed successfully!" << endl;
+}
+
+void Stick::Jwindow::sendtoHost(QByteArray& out)
+{
+//      use these three lines before you call this function in order to send data
+//      fill outData with the data you need to send
+//    QByteArray out;
+//    QTextStream outData(&out, QIODevice::WriteOnly);
+//    outData << static_cast<int>(Message::Message) << endl << str << endl << words << endl;
+    if(socket->state() == QAbstractSocket::ConnectedState){
+        socket->write(out);
+        socket->flush();
+    }
+}

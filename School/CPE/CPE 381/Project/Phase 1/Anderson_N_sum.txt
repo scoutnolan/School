@@ -1,0 +1,10 @@
+Input File Name:               Anderson_N_matlab.wav
+Output File Name:              Anderson_N_mod.wav
+Summary File Name:             Anderson_N_sum.txt
+
+Sampling Frequency:            22050 hz
+Number of Channels:            2
+Number of Bits In Each Sample: 16
+Length:                        14s
+Maximum Value of Sample:       5548
+Execution Time:                31ms

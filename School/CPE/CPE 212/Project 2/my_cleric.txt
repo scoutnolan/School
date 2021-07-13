@@ -1,0 +1,79 @@
+
+# test_cleric.txt - Test Cleric Class
+
+-------------------------
+# Testing the creation of a Dwarf Cleric named Shamus
+
+# Status of Shamus
+Cleric Status
+Name: Shamus
+Race: Dwarf
+Level: 1
+Exp: 0
+Health: 50
+Willpower: 10
+# Testing the creation of a Human Warrior named Phil
+
+# Status of Phil
+Warrior Status
+Name: Phil
+Race: Human
+Level: 1
+Exp: 0
+Health: 150
+Power Attack: 10
+-------------------------
+# Testing the creation of a Goblin named Pickles
+
+-------------------------
+# Status of Pickles
+Goblin Status
+Name: Pickles
+Race: Goblin
+Level: 1
+Exp: 0
+Health: 30
+Sneak Attack: 2
+-------------------------
+# The Goblin enemy sneak attacks
+Pickles Sneak Attacks Phil for 24 points
+Phil takes 24 points of damage.
+-------------------------
+# The Goblin enemy regular attacks
+Pickles attacks Phil with Pointy Stick for 4 points
+Phil takes 4 points of damage.
+-------------------------
+# Show the Warriors Health after taking damage
+Warrior Status
+Name: Phil
+Race: Human
+Level: 1
+Exp: 0
+Health: 122
+Power Attack: 10
+-------------------------
+# The Cleric heals the Warrior
+Shamus heals Phil for 15 points
+-------------------------
+# Show the Warriors Health
+Warrior Status
+Name: Phil
+Race: Human
+Level: 1
+Exp: 0
+Health: 137
+Power Attack: 10
+-------------------------
+# The Warrior regular attacks
+Phil attacks Pickles with Starter Longsword for 15 points
+Pickles takes 15 points of damage.
+-------------------------
+# The Warrior power attacks
+Phil attacks Pickles with a Power Attack for 15 points
+Pickles takes 15 points of damage.
+-------------------------
+# The Cleric regular attacks
+Shamus attacks Pickles with Simple Wand for 10 points
+Pickles takes 10 points of damage.
+Pickles has died.
+-------------------------

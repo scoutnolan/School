@@ -1,0 +1,6 @@
+// All inputs are valid
+media
+10
+15
+15
+10

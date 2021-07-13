@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Lab5Temp/Lab 5 Part 2
+vlab5_part3TB
+!s110 1616888930
+!i10b 1
+!s100 =lKUaM81jz5z=XAGlPHdA0
+IREe_]>LDk<PcjjGT8M8EJ1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Lab5Temp/Lab 5 Part 3
+w1616888916
+8D:\Lab5Temp\Lab 5 Part 3\Part3TD.v
+FD:\Lab5Temp\Lab 5 Part 3\Part3TD.v
+L0 3
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1616888930.000000
+!s107 D:\Lab5Temp\Lab 5 Part 3\Part3TD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Lab5Temp\Lab 5 Part 3\Part3TD.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+nlab5_part3@t@b
+vPart3
+Z5 !s110 1616974232
+!i10b 1
+!s100 ejI4@ej:^a`;R`>gRIO1?3
+I_T^E@?AGkWeRF82Ai3jDd2
+R0
+R1
+w1616899191
+8D:/Lab5Temp/Lab 5 Part 3/Part3.v
+FD:/Lab5Temp/Lab 5 Part 3/Part3.v
+L0 4
+R2
+r1
+!s85 0
+31
+Z6 !s108 1616974232.000000
+!s107 D:/Lab5Temp/Lab 5 Part 3/Part3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Lab5Temp/Lab 5 Part 3/Part3.v|
+!i113 1
+R3
+R4
+n@part3
+vPart3TD
+R5
+!i10b 1
+!s100 jY9Min6AKPO>BN@mKmJgT2
+IolR_ANkRVBZ9hAJUZC>cC0
+R0
+R1
+w1616899154
+8D:/Lab5Temp/Lab 5 Part 3/Part3TD.v
+FD:/Lab5Temp/Lab 5 Part 3/Part3TD.v
+L0 3
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/Lab5Temp/Lab 5 Part 3/Part3TD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Lab5Temp/Lab 5 Part 3/Part3TD.v|
+!i113 1
+R3
+R4
+n@part3@t@d

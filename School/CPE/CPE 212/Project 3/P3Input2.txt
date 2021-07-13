@@ -1,0 +1,25 @@
+# Verifies classroom
+# Appends students
+# Prints output
+
+s Terryn Fredrickson 01
+
+s Ted Fred 02
+
+s Mara Jade 03
+
+s Jango Fett 04
+
+s Obe-Wan Kenobi 05
+
+s Tallon Karrde 06
+
+s Garm Iblis 07
+
+s Gilad Pellaeon 08
+
+s Sheev Palpatine 09
+
+s Hego Damask 10
+
+a

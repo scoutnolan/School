@@ -1,0 +1,35 @@
+# Test file that creates a single student
+# This will verify your student implementation is working
+
+# Create test student Terryn Fredrickson
+z Terryn Fredrickson 01
+
+# Add Project
+l 100.0
+
+# Add Project
+l 75.0
+
+# Add Project
+l 85.0
+
+# Add Project
+l 80.0
+
+# Add Project
+l 0.0
+
+# Add Project
+l 50.0
+
+# Add Exam
+n 100.0
+
+# Add Exam 
+n 80.0
+
+# Set Final Exam
+k 75.0
+
+# Print Test Student
+t

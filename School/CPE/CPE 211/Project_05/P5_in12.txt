@@ -1,0 +1,6 @@
+// invalid package type
+bulk
+-20
+-25
+-15
+A25

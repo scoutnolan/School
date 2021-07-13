@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at FinalProject.v(139): always construct contains both blocking and non-blocking assignments File: D:/CPE324Final/Reaction-Timer-2.0-master/FinalProject.v Line: 139
+Info (10281): Verilog HDL Declaration information at FinalProject.v(121): object "C" differs only in case from object "c" in the same scope File: D:/CPE324Final/Reaction-Timer-2.0-master/FinalProject.v Line: 121
+Info (10281): Verilog HDL Declaration information at FinalProject.v(120): object "w" differs only in case from object "W" in the same scope File: D:/CPE324Final/Reaction-Timer-2.0-master/FinalProject.v Line: 120
+Info (10281): Verilog HDL Declaration information at FinalProject.v(127): object "match" differs only in case from object "Match" in the same scope File: D:/CPE324Final/Reaction-Timer-2.0-master/FinalProject.v Line: 127
+Warning (10268): Verilog HDL information at FinalProject.v(201): always construct contains both blocking and non-blocking assignments File: D:/CPE324Final/Reaction-Timer-2.0-master/FinalProject.v Line: 201

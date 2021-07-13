@@ -1,0 +1,53 @@
+//#include "global.h"
+//Stick::Lobby::Lobby(){
+
+//}
+
+//Stick::Lobby::~Lobby(){
+
+//}
+
+//bool deletePlayer()
+//{
+//    /* Implement if necessary */
+//    return true;
+//}
+
+//void Stick::Lobby::UpdateClients(QByteArray &msg)
+//{
+//    Player* i = FirstPlayer;        // Start at the first player
+//    while(i != nullptr)             // Go until the last player.
+//    {
+//        if(i->client->state() == QAbstractSocket::ConnectedState) // If we are connected
+//        {
+//            i->client->write(msg);      // Write the message
+//            i->client->flush();         // Flush
+//        }
+//        i = i->Playern; //go to next player
+//    }
+//}
+
+//bool Stick::Lobby::getPlayer(qint16 id, Player* &returnPlayer)
+//{
+//    Player* i = FirstPlayer;    // Pointer to go through list of players.
+//    while(i != nullptr)         // Go to the end of the list of players.
+//    {
+//        if(i->UID == id)         // Find the ID
+//        {
+//            returnPlayer = i;   // Player number return value.
+//            return true;        // Return true
+//        }
+
+//        i = i->Playern;    //move i to next player
+//    }
+//    return false;                   //returns false if no player was found
+//}
+
+
+
+
+
+
+
+
+

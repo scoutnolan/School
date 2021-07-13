@@ -1,0 +1,703 @@
+Solution Comparison for Project_09
+------------------------------------
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_09/P9_in1.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in1.txt
+
+*************** File Statistics ***************
+***********************************************
+Number of Values.........10
+Average..................5.5
+Median...................5.5
+Variance.................8.25
+Standard Deviation.......2.87228
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in1.txt
+
+*************** File Statistics ***************
+***********************************************
+Number of Values.........10
+Average..................5.5
+Median...................5.5
+Variance.................8.25
+Standard Deviation.......2.87228
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P9_in1.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in1.tx	Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in1.tx
+
+*************** File Statistics ***************							*************** File Statistics ***************
+***********************************************							***********************************************
+Number of Values.........10									Number of Values.........10
+Average..................5.5									Average..................5.5
+Median...................5.5									Median...................5.5
+Variance.................8.25									Variance.................8.25
+Standard Deviation.......2.87228								Standard Deviation.......2.87228
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_09/P9_in2.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in2.txt
+
+*************** File Statistics ***************
+***********************************************
+Number of Values.........11
+Average..................5.5
+Median...................5.5
+Variance.................10
+Standard Deviation.......3.16228
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in2.txt
+
+*************** File Statistics ***************
+***********************************************
+Number of Values.........11
+Average..................5.5
+Median...................5.5
+Variance.................10
+Standard Deviation.......3.16228
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P9_in2.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in2.tx	Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in2.tx
+
+*************** File Statistics ***************							*************** File Statistics ***************
+***********************************************							***********************************************
+Number of Values.........11									Number of Values.........11
+Average..................5.5									Average..................5.5
+Median...................5.5									Median...................5.5
+Variance.................10									Variance.................10
+Standard Deviation.......3.16228								Standard Deviation.......3.16228
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_09/P9_in3.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in3.txt
+
+*************** File Statistics ***************
+***********************************************
+Number of Values.........50
+Average..................25
+Median...................25
+Variance.................208.25
+Standard Deviation.......14.4309
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in3.txt
+
+*************** File Statistics ***************
+***********************************************
+Number of Values.........50
+Average..................25
+Median...................25
+Variance.................208.25
+Standard Deviation.......14.4309
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P9_in3.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in3.tx	Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in3.tx
+
+*************** File Statistics ***************							*************** File Statistics ***************
+***********************************************							***********************************************
+Number of Values.........50									Number of Values.........50
+Average..................25									Average..................25
+Median...................25									Median...................25
+Variance.................208.25									Variance.................208.25
+Standard Deviation.......14.4309								Standard Deviation.......14.4309
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_09/P9_in4.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in4.txt
+
+*************** File Statistics ***************
+***********************************************
+Number of Values.........5
+Average..................39.5787
+Median...................34.987
+Variance.................140.655
+Standard Deviation.......11.8598
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in4.txt
+
+*************** File Statistics ***************
+***********************************************
+Number of Values.........5
+Average..................39.5787
+Median...................34.987
+Variance.................140.655
+Standard Deviation.......11.8598
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P9_in4.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in4.tx	Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in4.tx
+
+*************** File Statistics ***************							*************** File Statistics ***************
+***********************************************							***********************************************
+Number of Values.........5									Number of Values.........5
+Average..................39.5787								Average..................39.5787
+Median...................34.987									Median...................34.987
+Variance.................140.655								Variance.................140.655
+Standard Deviation.......11.8598								Standard Deviation.......11.8598
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_09/P9_in5.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in5.txt
+
+*************** File Read Error ***************
+==> Error occurred reading the number of values
+==> present in the input file.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in5.txt
+
+*************** File Read Error ***************
+==> Error occurred reading the number of values
+==> present in the input file.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P9_in5.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in5.tx	Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in5.tx
+
+*************** File Read Error ***************							*************** File Read Error ***************
+==> Error occurred reading the number of values							==> Error occurred reading the number of values
+==> present in the input file.									==> present in the input file.
+==> Program terminated.										==> Program terminated.
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_09/P9_in6.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in6.txt
+
+*************** File Read Error ***************
+==> Error occurred reading in number #6
+==> Invalid Character found in file.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in6.txt
+
+*************** File Read Error ***************
+==> Error occurred reading in number #6
+==> Invalid Character found in file.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P9_in6.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in6.tx	Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in6.tx
+
+*************** File Read Error ***************							*************** File Read Error ***************
+==> Error occurred reading in number #6								==> Error occurred reading in number #6
+==> Invalid Character found in file.								==> Invalid Character found in file.
+==> Program terminated.										==> Program terminated.
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_09/P9_in7.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in7.txt
+
+*************** File Read Error ***************
+==> Error occurred trying to reading in number #11
+==> Number was not present in the input file.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in7.txt
+
+*************** File Read Error ***************
+==> Error occurred trying to reading in number #11
+==> Number was not present in the input file.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P9_in7.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in7.tx	Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in7.tx
+
+*************** File Read Error ***************							*************** File Read Error ***************
+==> Error occurred trying to reading in number #11						==> Error occurred trying to reading in number #11
+==> Number was not present in the input file.							==> Number was not present in the input file.
+==> Program terminated.										==> Program terminated.
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing input file: /home/work/cpe211data/Project_09/P9_in8.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in8.txt
+
+*************** Empty Input File **************
+==> Input file is empty.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in8.txt
+
+*************** Empty Input File **************
+==> Input file is empty.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P9_in8.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in8.tx	Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in8.tx
+
+*************** Empty Input File **************							*************** Empty Input File **************
+==> Input file is empty.									==> Input file is empty.
+==> Program terminated.										==> Program terminated.
+***********************************************							***********************************************
+
+
+                             #########################################################################
+                             #########################################################################
+                             ###  Testing Invalid input file then correct
+                             ###  Testing Invalid Input File: Not/A/File.TXT
+                             ###  Testing input file: /home/work/cpe211data/Project_09/P9_in9.txt
+                             #########################################################################
+                             #########################################################################
+
+                                            ===================================
+                                            ===> Running STUDENTS solution <===
+                                            ===================================
+================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): Not/A/File.TXT
+
+*************** File Open Error ***************
+==>  Input file could not be opened.
+==>  Not/A/File.TXT is an invalid file!!
+==>  Try Again.
+***********************************************
+
+Enter the name of the input file (ctrl-c to exit): not/an/input/file.txt
+
+*************** File Open Error ***************
+==>  Input file could not be opened.
+==>  not/an/input/file.txt is an invalid file!!
+==>  Try Again.
+***********************************************
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in9.txt
+
+*************** Empty Input File **************
+==> Input file is empty.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                            ===================================
+                                            ===> Running PROVIDED solution <===
+                                            ===================================
+==================== Start of Output ============================================
+
+Enter the name of the input file (ctrl-c to exit): Not/A/File.TXT
+
+*************** File Open Error ***************
+==>  Input file could not be opened.
+==>  Not/A/File.TXT is an invalid file!!
+==>  Try Again.
+***********************************************
+
+Enter the name of the input file (ctrl-c to exit): not/an/input/file.txt
+
+*************** File Open Error ***************
+==>  Input file could not be opened.
+==>  not/an/input/file.txt is an invalid file!!
+==>  Try Again.
+***********************************************
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in9.txt
+
+*************** Empty Input File **************
+==> Input file is empty.
+==> Program terminated.
+***********************************************
+
+==================== End of Output ============================================
+
+                                             ==========================================
+                                             ===> Side-By-Side Comparison of Output
+                                             ===> Input File: P9_in9.txt
+                                             ==========================================
+
+
+                                             #################################################################
+                                             ###
+                                             ###   There are 0 differences in the
+                                             ###   output generated for the input file.
+                                             ###
+                                             ###   The number shown may not be an exact count of
+                                             ###   the number of differences.
+                                             ###
+                                             ###   Some multiple line differences are combined and
+                                             ###   counted as a single difference. 
+                                             ###
+                                             ###   THE DIFFERENCE COUNT ABOVE MAY NOT INCLUDE ALL DIFFERENCES
+                                             ###
+                                             #################################################################
+
+Student program output                                                                                           Sample Solution Output
+----------------------                                                                                           ----------------------
+
+Enter the name of the input file (ctrl-c to exit): Not/A/File.TXT				Enter the name of the input file (ctrl-c to exit): Not/A/File.TXT
+
+*************** File Open Error ***************							*************** File Open Error ***************
+==>  Input file could not be opened.								==>  Input file could not be opened.
+==>  Not/A/File.TXT is an invalid file!!							==>  Not/A/File.TXT is an invalid file!!
+==>  Try Again.											==>  Try Again.
+***********************************************							***********************************************
+
+Enter the name of the input file (ctrl-c to exit): not/an/input/file.txt			Enter the name of the input file (ctrl-c to exit): not/an/input/file.txt
+
+*************** File Open Error ***************							*************** File Open Error ***************
+==>  Input file could not be opened.								==>  Input file could not be opened.
+==>  not/an/input/file.txt is an invalid file!!							==>  not/an/input/file.txt is an invalid file!!
+==>  Try Again.											==>  Try Again.
+***********************************************							***********************************************
+
+Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in9.tx	Enter the name of the input file (ctrl-c to exit): /home/work/cpe211data/Project_09/P9_in9.tx
+
+*************** Empty Input File **************							*************** Empty Input File **************
+==> Input file is empty.									==> Input file is empty.
+==> Program terminated.										==> Program terminated.
+***********************************************							***********************************************
+

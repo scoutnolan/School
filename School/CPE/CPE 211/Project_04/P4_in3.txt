@@ -1,0 +1,6 @@
+li:ne 1 is split here To divide the line
+:
+Second+Line is+split in three
++
+// the first two lines are read for the first part of the program
+// The third and fourth lines are read for the second part

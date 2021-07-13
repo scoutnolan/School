@@ -1,0 +1,6 @@
+// All inputs are valid
+parcel
+10
+15
+7
+5

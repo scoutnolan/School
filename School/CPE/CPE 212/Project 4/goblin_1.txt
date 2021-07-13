@@ -1,0 +1,9 @@
++ g 1 "Goblin"
+i 1 r 10 "Gold"
+i 1 p 15 "Potion of Superior Healing"
+
++ g 2 "Goblin"
+i 2 r 10 "Gold"
+i 2 p 15 "Potion of Superior Healing"
+
++ g 3 "Goblin"

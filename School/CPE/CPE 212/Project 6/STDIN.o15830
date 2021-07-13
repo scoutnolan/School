@@ -1,0 +1,22 @@
+rm sort test
+rm: cannot remove 'sort': No such file or directory
+make: *** [clean] Error 1
+g++ -pthread -std=c++11 -O3 main.cpp -o sort
+Running with a threshold of 131072
+Running with a threshold of 65536
+Running with a threshold of 32768
+terminate called after throwing an instance of 'std::system_error'
+  what():  Resource temporarily unavailable
+/var/spool/torque/mom_priv/jobs/15830.jetson.SC: line 13: 28077 Aborted                 ./sort 32768 > sort_32768.txt
+Running with a threshold of 16384
+terminate called after throwing an instance of 'std::system_error'
+  what():  Resource temporarily unavailable
+/var/spool/torque/mom_priv/jobs/15830.jetson.SC: line 16:  5781 Aborted                 ./sort 16384 > sort_16384.txt
+Running with a threshold of 2048
+terminate called after throwing an instance of 'std::system_error'
+  what():  Resource temporarily unavailable
+/var/spool/torque/mom_priv/jobs/15830.jetson.SC: line 19: 19256 Aborted                 ./sort 2048 > sort_2048.txt
+Running with a threshold of 512
+terminate called after throwing an instance of 'std::system_error'
+  what():  Resource temporarily unavailable
+/var/spool/torque/mom_priv/jobs/15830.jetson.SC: line 22: 22792 Aborted                 ./sort 512 > sort_512.txt

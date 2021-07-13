@@ -1,0 +1,6 @@
+// invalid character in height, width, length or weight
+bulk
+20
+25
+A15
+25
