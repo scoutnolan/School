@@ -1,0 +1,16 @@
+eggs,dozen,20,1.99
+bacon,lb,18,7.85
+bread,loaf,40,1.58
+coffee,lb,2,5.99
+juice,gallon,5,4.99
+butter,lb,90,2.39
+jelly,16 oz jar,7,1.98
+bananas,bunch,25,2.89
+apples,5 lb bag,12,3.99
+donuts,dozen,50,2.50
+milk,gallon,3,2.99
+salt,jar,16,3.99
+pepper,jar,13,5.00
+ham,lb,42,8.99
+potatoes,lb,57,2.58
+biscuits,dozen,108,6.89

@@ -1,0 +1,4 @@
+Hello World
+This is our new text file
+I can write new text to it
+Did you know that 2*2 is 4 ?
