@@ -1,0 +1,68 @@
+1. Flight sim calls start function. The start function calls calculation functions and the calculation functions call 
+the return statements in the other files. Once the calculation has finished and we are back in the Start function, we will output
+all of the data based on the flight number. 
+2. The flight number will be the main controller of the entire program. If you want to find the data for a flight, we simply call a function 
+with the flight number and get the rest of the data based on that. Implementing how we extract data from the flight number will come later.  
+
+class FlightSim()                                     // Initialize and start flight simulation.
+    FlightSim::FlightSim()                            // Constructor.
+    ~FlightSim::FlightSim()                           // Destructor.
+    int FlightSim::SetMultiplier()                    // Set the time multiplier.
+    string FlightSim::SetInFile()                     // Set the text file to read.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // This will be the main function Start()... that calls the other classes. Those classes will
+    // call the parser to set data inside of them. You will then use the data in those
+    // classes to perform the output and calculations.
+    // It will also also call the functions to output the data.
+
+    void FlightSim::Start(int Multiplier, string InFile)  // Start the simulation.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // The following functions use the flight num to do their calculations and outputs. 
+    int FlightSim::CurrentLocation(int FlightNum, int CurrentHr, int CurrentMin);   // Use Flight Num to find initial location / time. Because we 
+                                                                                    // know the start time, we can compare that to the real time and 
+                                                                                    // calculate our data based on that.
+    int FlightSim::FlightTime(int FlightNum);
+    void FlightSim::OutNewFlight(int FlightNum);             // On a new flight, output this data.
+    void FlightSim::OutInterval(int FlightNum);              // Output the data on 5 second intervals.
+
+
+class FlightData()                              // Set and return Flight Data for the simulation.
+    FlightData::FlightData(string InFile);      // Constructor calls SetData().
+    ~FlightData::FlightData();
+    void FlightData::SetData(string InFile);    // Calls parser to set Classes' data.
+
+    // Returns data for class FlightSim
+    string FlightData::ReturnAirline(int FlightNum);    // Returns the airline.       
+    string FlightData::ReturnType(int FlightNum);       // Returns the plane type.
+    string FlightData::ReturnDepCity(int FlightNum);    // Returns departure city.
+    string FlightData::ReturnDestCity(int FlightNum);   // Returns destination city.
+    int FlightData::ReturnTime(int FlightNum);          // Returns departure time.
+    int FlightData::ReturnFlightNum();                  // Returns the flight num.
+
+class CityData()                            // Set and return City Data for the simulation.
+    CityData::CityData(string InFile);      // Constructor calls SetData().
+    ~CityData::CityData();
+    void CityData::SetData(string InFile);  // Calls parser to set Classes' data.
+
+    // Returns data for class FlightSim
+    string CityData::ReturnName();                  // Returns City name.
+    string CityData::ReturnState();                 // Returns State of City.
+    int CityData::ReturnLatitude(string CityName);  // Returns Lat of City.
+    int CityData::ReturnLongitude(string CityName); // Returns Lon of City.
+    int CityData::ReturnDistance(int FlightNum);    // Returns distance to other city. 
+
+// This data will help to calculate flight time.
+class AircraftData()                            // Set and return Aircraft Data for the simulation.
+    AircraftData::AircraftData(string InFile);  // Constructor calls SetData().
+    ~AircraftData::AircraftData();
+    void AircraftData::SetData(string InFile);  // Calls Parser to set Classes' data.
+
+    // Returns data for class FlightSim. If we have flight num, we can find all of the data we need 
+    // to return our information. 
+    string AircraftData::ReturnMake(int FlightNum);     // Returns plane make.
+    string AircraftData::ReturnModel(int FlightNum);    // Returns plane model.
+    int AircraftData::ReturnSpeed(string model);        // Returns plane speed.
+    int AircraftData::ReturnClimb(string model);        // Returns climb speed.
+    int AircraftData::ReturnWing(string model);         // Returns wing span.
+    int AircraftData::ReturnFuselage(string model);     // Returns Fuselage length.

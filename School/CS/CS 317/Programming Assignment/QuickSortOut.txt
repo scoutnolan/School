@@ -1,0 +1,15 @@
+
+CAROL
+CAROL
+file should be Sorted case less Ann bob
+file should be Sorted case less Ann bob
+hello goodbye Once Upon a time there
+hello goodbye Once Upon a time there
+list that we can store into string type
+list that we can store into string type
+there is no puncts in this file and
+there is no puncts in this file and
+there may be upto 200000 lines in this
+there may be upto 200000 lines in this
+was a monster named ogre This is a word 
+was a monster named ogre This is a word 

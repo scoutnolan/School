@@ -1,0 +1,26 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (CS307Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  AircraftData.cpp
+  CityData.cpp
+  CityDataParser.cpp
+  FlightData.cpp
+  FlightDataParser.cpp
+  MyProgram.cpp
+  Simulation.cpp
+  Compiling...
+  Generating Code...
+  CS307Project1.vcxproj -> D:\new\VS\x64\Debug\Anderson_CS307_Project1.exe
+d:\new\citydata.cpp(11): warning C26495: Variable 'City::distances' is uninitialized. Always initialize a member variable (type.6).
+d:\new\citydata.cpp(15): warning C26495: Variable 'City::distances' is uninitialized. Always initialize a member variable (type.6).
+d:\new\citydataparser.cpp(20): warning C26495: Variable 'CityDataParser::inFile' is uninitialized. Always initialize a member variable (type.6).
+d:\new\citydataparser.cpp(196): warning C6387: '(*array)[nextIdx]' could be '0':  this does not adhere to the specification for the function 'strcpy'. 
+d:\new\citydataparser.cpp(170): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+d:\new\citydataparser.cpp(263): warning C6386: Buffer overrun while writing to '*array':  the writable size is 'm_iCityCount*m_iCityCount*8' bytes, but '16' bytes might be written.
+d:\new\citydataparser.cpp(243): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).
+d:\new\flightdata.cpp(91): warning C6001: Using uninitialized memory 'tempSpeed'.
+d:\new\flightdata.cpp(119): warning C6001: Using uninitialized memory 'tempTripTime'.
+d:\new\flightdata.cpp(58): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+d:\new\flightdata.cpp(59): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+d:\new\flightdata.cpp(175): warning C6001: Using uninitialized memory 'tempSpeed'.
+d:\new\flightdata.cpp(236): warning C6001: Using uninitialized memory 'tempSpeed'.
+d:\new\flightdata.cpp(274): warning C6001: Using uninitialized memory 'tempSpeed'.
+d:\new\flightdataparser.cpp(20): warning C26495: Variable 'FlightDataParser::m_sFlightDataFile' is uninitialized. Always initialize a member variable (type.6).

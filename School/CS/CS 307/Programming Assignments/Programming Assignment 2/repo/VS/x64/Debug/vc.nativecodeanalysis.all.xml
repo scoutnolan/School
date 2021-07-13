@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>aircraftdata.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Aircraft::Type' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Aircraft::{ctor}</FUNCTION>
+    <DECORATED>??0Aircraft@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>citydata.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'City::distances' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>City::{ctor}</FUNCTION>
+    <DECORATED>??0City@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>citydata.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'City::distances' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>City::{ctor}</FUNCTION>
+    <DECORATED>??0City@@QEAA@PEAD00NN@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>citydataparser.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CityDataParser::inFile' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CityDataParser::{ctor}</FUNCTION>
+    <DECORATED>??0CityDataParser@@AEAA@XZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>citydataparser.cpp</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'(*array)[nextIdx]' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>CityDataParser::getCitySymbolsArray</FUNCTION>
+    <DECORATED>?getCitySymbolsArray@CityDataParser@@QEAAXPEAPEAPEAD@Z</DECORATED>
+    <FUNCLINE>181</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>187</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>187</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>189</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>187</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>187</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>191</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>194</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>195</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>196</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>202</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>207</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>209</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'nextIdx' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'this-&gt;getNextLine(line, 127)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>207</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'strcmp(line, "&lt;SYMBOL&gt;")==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>209</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'nextIdx' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h:133)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'(*array)[nextIdx]' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>citydataparser.cpp</FILENAME>
+      <LINE>184</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>CityDataParser::getCitySymbolsArray</FUNCTION>
+    <DECORATED>?getCitySymbolsArray@CityDataParser@@QEAAXPEAPEAPEAD@Z</DECORATED>
+    <FUNCLINE>181</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>citydataparser.cpp</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to '*array':  the writable size is 'm_iCityCount*m_iCityCount*8' bytes, but '16' bytes might be written.</DESCRIPTION>
+    <FUNCTION>CityDataParser::getDistTable</FUNCTION>
+    <DECORATED>?getDistTable@CityDataParser@@QEAAXPEAPEAN@Z</DECORATED>
+    <FUNCLINE>253</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>255</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>260</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>261</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!inFile-&gt;is_open()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'this-&gt;getNextLine(line, 127)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'strcmp(line, "&lt;ROWS&gt;")==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'this-&gt;getNextLine(line, 127)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'strcmp(line, "&lt;DISTANCE&gt;")==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'idx' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'this-&gt;getNextLine(line, 127)')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'strcmp(line, "&lt;DISTANCE&gt;")==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+        <FILENAME>citydataparser.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to '*array[1]', (writable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>citydataparser.cpp</FILENAME>
+      <LINE>257</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>CityDataParser::getDistTable</FUNCTION>
+    <DECORATED>?getDistTable@CityDataParser@@QEAAXPEAPEAN@Z</DECORATED>
+    <FUNCLINE>253</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>flightdata.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Flight::ParseFlight' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Flight::{ctor}</FUNCTION>
+    <DECORATED>??0Flight@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>flightdata.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Flight::ParseFlight' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Flight::{ctor}</FUNCTION>
+    <DECORATED>??0Flight@@QEAA@PEAD0H0HH0HHH@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>flightdataparser.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'FlightDataParser::m_sFlightDataFile' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>FlightDataParser::{ctor}</FUNCTION>
+    <DECORATED>??0FlightDataParser@@AEAA@XZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>simulation.cpp</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Simulation::PrintAllFlights</FUNCTION>
+    <DECORATED>?PrintAllFlights@Simulation@@QEAAXVAircraft@@VCity@@VFlight@@HH@Z</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\temp school\programming assignment 2\repo</FILEPATH>
+      <FILENAME>simulation.cpp</FILENAME>
+      <LINE>183</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Simulation::PrintAllFlights</FUNCTION>
+    <DECORATED>?PrintAllFlights@Simulation@@QEAAXVAircraft@@VCity@@VFlight@@HH@Z</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
