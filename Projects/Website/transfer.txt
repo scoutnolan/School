@@ -1,0 +1,79 @@
+https://f7duHBScBpoNzw5S:bDZqEq8OyrN8lWng@domains.google.com/nic/update?hostname=www.nolansphotos.com
+
+
+https://www.instagram.com/nolansphoto/?hl=en
+
+
+
+https://www.youtube.com/channel/UCEGOSDGzHaWaxqU5gUKZBQw?view_as=subscriber
+
+<div class="row">
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+https://www.linkedin.com/in/nolan-anderson-3680a9197/
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+			<img src="/photos/bmw.jpg" alt = "/photos/bmw.jpg" style="width:400px;height:600px;">
+			<a href="/photos/ferrari.jpg" target="_blank"><img src="/photos/ferrari.jpg" style="width:400px;height:600px;"></a>
+			<a href="/photos/esses.jpg" target="_blank"><img src="/photos/esses.jpg" style="width:400px;height:600px;"></a>
+			<a href="/photos/ferrari_2.jpg" target="_blank"><img src="/photos/ferrari_2.jpg" style="width:400px;height:600px;"></a>
+			<a href="/photos/mini.jpg" target="_blank"><img src="/photos/mini.jpg" style="width:400px;height:600px;"></a>
+			<a href="/photos/interior_1.jpg" target="_blank"><img src="/photos/interior_1.jpg" style="width:400px;height:600px;"></a>
+			<a href="/photos/fiesta.jpg" target="_blank"><img src="/photos/fiesta.jpg" style="width:400px;height:600px;"></a>
+			<a href="/photos/porsche.jpg" target="_blank"><img src="/photos/porsche.jpg" style="width:800px;height:450px;"></a>
+			<a href="/photos/acura_1.jpg" target="_blank"><img src="/photos/acura_1.jpg" style="width:800px;height:450px;"></a>
+			<a href="/photos/ferrari_3.jpg" target="_blank"><img src="/photos/ferrari_3.jpg" style="width:800px;height:450px;"></a>
+
+
+
+<div class="row">
+  	<div class="column">
+    		<a href="/photos/ferrari.jpg" target="_blank"><img src="/photos/ferrari.jpg" style="width: 85%"></a>
+		<a href="/photos/esses.jpg" target="_blank"><img src="/photos/esses.jpg" style="width: 85%"></a>
+		<a href"/photos/ferrari_2.jpg" target="_blank"><img src="/photos/ferrari_2.jpg" style="width: 85%"></a>
+  	</div>
+  	<div class="column">
+    		<a href="/photos/bmw.jpg" target="_blank"><img src="/photos/bmw.jpg" style="width: 85%"></a>
+		<a href="/photos/mini.jpg" target="_blank"><img src="/photos/mini.jpg" style="width: 85%"></a>
+		<a href="/photos/interior_1.jpg" target="_blank"><img src="/photos/interior_1.jpg" style="width:85%"></a>
+  	</div>
+  	<div class="column">
+		<a href="/photos/pfaff.jpg" target="_blank"><img src="/photos/pfaff.jpg" style="width: 85%"></a>
+		<a href="/photos/acura_new.jpg" target="_blank"><img src="/photos/acura_new.jpg" style="width: 85%"></a>
+		<a href="/photos/bike.jpg" target="_blank"><img src="/photos/bike.jpg" style="width: 85%"></a>
+  	</div>
+</div>
+
+.row{
+	float: center;
+}
+.column{
+	float: left;
+	width: 33.33%;	
+}
