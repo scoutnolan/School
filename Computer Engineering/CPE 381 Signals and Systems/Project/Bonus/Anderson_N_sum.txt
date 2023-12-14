@@ -1,0 +1,12 @@
+--------------------------
+Anderson_N_sum.txt
+Displays the information of processing the wav file.
+Number of Samples 		=  325149 samples
+Bits per Sample 		=  16 bits
+Sample Frequency 		=  22050 Hz
+Data Size 				=  1300596 bytes
+Number of Channels 		=  2 channels
+Byte Rate Taken 		=  88200 bps
+Playing Time 			=  14 seconds
+Processing Time 		=  0.077 seconds
+--------------------------

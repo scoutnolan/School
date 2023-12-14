@@ -1,4 +1,0 @@
-﻿  Bonus.cpp
-d:\temp school\cpe 381 bonus\bonus\bonus\bonus.cpp(72): warning C4101: 'RChannel': unreferenced local variable
-d:\temp school\cpe 381 bonus\bonus\bonus\bonus.cpp(71): warning C4101: 'LChannel': unreferenced local variable
-  Bonus.vcxproj -> D:\Temp School\CPE 381 Bonus\Bonus\Debug\Bonus.exe

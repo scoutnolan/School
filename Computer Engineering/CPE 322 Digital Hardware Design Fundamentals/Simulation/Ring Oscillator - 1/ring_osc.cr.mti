@@ -1,0 +1,8 @@
+{D:/Simulation/Ring Oscillator - 1/ring_osc.v} {1 {vlog -work work -stats=none {D:/Simulation/Ring Oscillator - 1/ring_osc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ring_osc
+
+Top level modules:
+	ring_osc
+
+} {} {}}

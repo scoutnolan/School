@@ -1,0 +1,9 @@
+{D:/Simulation/Delays - 6/v_module.v} {1 {vlog -work work -stats=none {D:/Simulation/Delays - 6/v_module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module v_module
+-- Compiling module tb_v_module
+
+Top level modules:
+	tb_v_module
+
+} {} {}}

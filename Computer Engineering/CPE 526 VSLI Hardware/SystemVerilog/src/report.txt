@@ -1,0 +1,1277 @@
+Coverage Report by file with details
+
+=================================================================================
+=== File: /home/student/npa0002/CPE526_SP22/SystemVerilog/src/interface-3.sv
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       1         1         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/interface-3.sv --
+
+    1                                                interface arb_if(input bit clk);
+    2                                                	logic RESET;
+    3                                                	integer REQ_TIME0,REQ_TIME1,REQ_TIME2,REQ_TIME3,REQ_TIME4,REQ_TIME5,REQ_TIME6,REQ_TIME7;
+    4                                                	logic [0:7] REQ,GRANT,GEN_REQ;
+    5                                                	property a;
+    6                                                		@(clk)
+    7                                                		$onehot(GRANT) == 1 | GRANT == 8'b0;
+    8                                                	endproperty;
+    9                                                	one_hot_assert: assert property(a);
+    10              1                          1     	clocking cb  @(posedge clk);
+    11                                               	endclocking
+    12                                               endinterface
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                       1362       162      1200    11.89%
+
+================================Toggle Details================================
+
+Toggle Coverage for File /home/student/npa0002/CPE526_SP22/SystemVerilog/src/interface-3.sv --
+
+       Line                                   Node      1H->0L      0L->1H       0L->Z       Z->0L       1H->Z       Z->H1     ExtMode  "Coverage"
+--------------------------------------------------------------------------------------------------------------------------------------------------
+          2                                  RESET           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME7[9]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME7[8]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME7[7]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME7[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME7[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME7[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME7[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME7[31]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[30]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME7[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME7[29]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[28]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[27]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[26]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[25]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[24]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[23]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[22]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[21]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[20]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME7[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME7[19]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[18]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[17]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[16]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[15]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[14]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[13]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[12]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[11]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME7[10]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME7[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME6[9]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME6[8]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME6[7]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME6[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME6[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME6[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME6[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME6[31]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[30]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME6[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME6[29]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[28]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[27]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[26]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[25]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[24]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[23]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[22]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[21]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[20]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME6[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME6[19]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[18]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[17]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[16]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[15]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[14]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[13]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[12]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[11]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME6[10]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME6[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME5[9]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME5[8]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME5[7]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME5[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME5[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME5[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME5[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME5[31]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[30]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME5[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME5[29]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[28]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[27]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[26]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[25]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[24]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[23]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[22]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[21]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[20]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME5[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME5[19]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[18]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[17]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[16]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[15]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[14]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[13]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[12]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[11]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME5[10]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME5[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME4[9]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME4[8]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME4[7]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME4[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME4[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME4[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME4[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME4[31]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[30]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME4[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME4[29]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[28]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[27]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[26]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[25]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[24]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[23]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[22]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[21]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[20]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME4[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME4[19]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[18]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[17]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[16]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[15]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[14]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[13]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[12]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[11]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME4[10]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME4[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME3[9]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME3[8]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME3[7]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME3[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME3[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME3[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME3[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME3[31]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[30]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME3[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME3[29]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[28]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[27]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[26]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[25]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[24]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[23]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[22]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[21]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[20]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME3[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME3[19]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[18]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[17]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[16]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[15]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[14]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[13]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[12]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[11]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME3[10]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME3[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME2[9]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME2[8]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME2[7]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME2[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME2[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME2[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME2[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME2[31]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[30]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME2[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME2[29]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[28]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[27]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[26]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[25]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[24]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[23]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[22]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[21]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[20]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME2[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME2[19]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[18]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[17]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[16]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[15]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[14]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[13]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[12]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[11]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME2[10]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME2[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME1[9]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME1[8]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME1[7]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME1[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME1[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME1[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME1[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME1[31]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[30]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME1[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME1[29]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[28]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[27]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[26]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[25]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[24]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[23]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[22]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[21]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[20]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME1[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME1[19]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[18]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[17]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[16]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[15]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[14]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[13]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[12]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[11]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME1[10]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME1[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME0[9]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME0[8]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME0[7]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME0[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME0[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME0[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                           REQ_TIME0[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME0[31]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[30]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME0[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME0[29]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[28]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[27]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[26]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[25]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[24]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[23]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[22]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[21]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[20]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME0[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          3                          REQ_TIME0[19]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[18]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[17]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[16]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[15]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[14]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[13]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[12]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[11]           0           0           0           0           0           0           3        0.00 
+          3                          REQ_TIME0[10]           0           0           0           0           0           0           3        0.00 
+          3                           REQ_TIME0[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                                 REQ[7]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                                 REQ[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                                 REQ[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                                 REQ[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                                 REQ[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                                 REQ[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                                 REQ[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                                 REQ[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                               GRANT[7]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                               GRANT[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                               GRANT[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                               GRANT[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                               GRANT[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                               GRANT[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                               GRANT[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                               GRANT[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                             GEN_REQ[7]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                             GEN_REQ[6]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                             GEN_REQ[5]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                             GEN_REQ[4]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                             GEN_REQ[3]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                             GEN_REQ[2]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                             GEN_REQ[1]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+          4                             GEN_REQ[0]           1           1           0*          0*          0*          0*    2-STATE      100.00 
+
+========
+(n*) - Number was not used in coverage calculations performed by extended toggle algorithms.
+
+Extended Toggle Coverage Calculation Criteria:
+-----------------------------------------------
+	ExtMode 1: 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z').
+	ExtMode 2: 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'.
+	ExtMode 3: 0L->1H & 1H->0L & all 'Z' transitions.
+========
+
+Total Node Count     =        281 
+Toggled Node Count   =         81 
+Untoggled Node Count =        200 
+
+Toggle Coverage      =      11.89% (162 of 1362 bins)
+
+=================================================================================
+=== File: /home/student/npa0002/CPE526_SP22/SystemVerilog/src/prio_enc_arb-1.vhd
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        10         2    83.33%
+
+================================Branch Details================================
+
+Branch Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/prio_enc_arb-1.vhd --
+
+------------------------------------IF Branch------------------------------------
+    24                                   ***0***     Count coming in to IF
+    24              1                    ***0***            if x<=2**i then
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    65                                      5746     Count coming in to IF
+    65              1                       5746           if (clk'event and clk='1') then
+Branch totals: 1 hit of 1 branch = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    68                                      5746     Count coming in to IF
+    68              1                        301              if (reset='1') then
+    71              1                       5445              else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    72                                      5445     Count coming in to IF
+    72              1                       1229                 if (state=idle) then
+    77              1                        856                 elsif (state=sel) then
+    80              1                       3360                 else -- ack
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    73                                      1229     Count coming in to IF
+    73              1                        857                   if (req_enc_vld='1') then
+                                             372     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    82                                      3360     Count coming in to IF
+    82              1                        764                   if (req(conv_integer(req_enc_sel))='0') then
+                                            2596     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       3         3         0   100.00%
+    FSM Transitions                  4         4         0   100.00%
+
+================================FSM Details================================
+
+FSM Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/prio_enc_arb-1.vhd --
+
+FSM_ID: state
+    Current State Object : state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  72                idle                   0
+  77                 sel                   1
+  83                 ack                   2
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    idle                1065          
+                     sel                 857          
+                     ack                 856          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  74                   0                 857          idle -> sel                   
+  79                   1                 856          sel -> ack                    
+  69                   2                   1          sel -> idle                   
+  83                   3                 856          ack -> idle                   
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   3         3         0   100.00%
+        FSM Transitions              4         4         0   100.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14         9         5    64.28%
+
+================================Statement Details================================
+
+Statement Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/prio_enc_arb-1.vhd --
+
+    1                                                library ieee;
+    2                                                use ieee.std_logic_1164.all;
+    3                                                use ieee.std_logic_arith.all;
+    4                                                use ieee.std_logic_unsigned.all;
+    5                                                use ieee.std_logic_misc.all;
+    6                                                
+    7                                                entity prio_enc_arb is
+    8                                                  generic (
+    9                                                    width     : integer:=8
+    10                                                 );  
+    11                                                 port (
+    12                                                   clk       : in  std_logic;
+    13                                                   reset     : in  std_logic;
+    14                                                   req       : in  std_logic_vector(width-1 downto 0);
+    15                                                   grant     : out std_logic_vector(width-1 downto 0)
+    16                                                 );
+    17                                               end prio_enc_arb;
+    18                                               
+    19                                               architecture rtl of prio_enc_arb is
+    20                                                 function ceil_log2 (
+    21                                                    x: natural)
+    22                                                 return natural is begin
+    23              1                    ***0***          for i in 0 to 31 loop
+    23              2                    ***0***     
+    24                                                      if x<=2**i then
+    25              1                    ***0***              return i;
+    26                                                      end if;
+    27              1                    ***0***          end loop;
+    28              1                    ***0***          return 32;
+    29                                                 end ceil_log2;
+    30                                               
+    31                                                 component prio_enc_recur
+    32                                                 generic (
+    33                                                   chunk_log : integer:=6;
+    34                                                   width     : integer:=64;
+    35                                                   width_log : integer:=6
+    36                                                 );  
+    37                                                 port (
+    38                                                   in_vec    : in  std_logic_vector(width-1 downto 0);
+    39                                                   out_vec   : out std_logic_vector(width_log-1 downto 0);
+    40                                                   out_vld   : out std_logic
+    41                                                 );
+    42                                                 end component;
+    43                                               
+    44                                                 type t_fsm is (idle, sel, ack);
+    45                                                 signal state : t_fsm;
+    46                                                 signal grant_i : std_logic_vector(width-1 downto 0);
+    47                                                 signal req_enc : std_logic_vector(ceil_log2(width)-1 downto 0);
+    48                                                 signal req_enc_vld : std_logic;
+    49                                                 signal req_enc_sel : std_logic_vector(ceil_log2(width)-1 downto 0);
+    50                                               begin
+    51                                               
+    52                                                   prio_enc : prio_enc_recur
+    53                                                   generic map (
+    54                                                     chunk_log => 2,
+    55                                                     width     => width,
+    56                                                     width_log => ceil_log2(width)
+    57                                                   ) port map (
+    58                                                     in_vec    => req,
+    59                                                     out_vec   => req_enc,
+    60                                                     out_vld   => req_enc_vld
+    61                                                   );
+    62                                               
+    63                                                  process (clk)
+    64                                                  begin
+    65                                                     if (clk'event and clk='1') then
+    66              1                       5746              grant <= (others=>'0');
+    67                                               
+    68                                                        if (reset='1') then
+    69              1                        301                 state <= idle;
+    70              1                        301                 req_enc_sel <= (others=>'0');
+    71                                                        else
+    72                                                           if (state=idle) then
+    73                                                             if (req_enc_vld='1') then
+    74              1                        857                     state <= sel;
+    75              1                        857                     req_enc_sel <= req_enc;
+    76                                                             end if;
+    77                                                           elsif (state=sel) then
+    78              1                        856                   grant(conv_integer(req_enc_sel)) <= '1';
+    79              1                        856                   state <= ack;
+    80                                                           else -- ack
+    81              1                       3360                   grant(conv_integer(req_enc_sel)) <= '1';
+    82                                                             if (req(conv_integer(req_enc_sel))='0') then
+    83              1                        764                      state <= idle;
+    84                                                             end if;
+    85                                                           end if;
+    86                                                        end if;
+    87                                                     end if;
+    88                                                  end process;
+    89                                               
+    90                                               end rtl;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        101        53        48    52.47%
+
+================================Toggle Details================================
+
+Toggle Coverage for File /home/student/npa0002/CPE526_SP22/SystemVerilog/src/prio_enc_arb-1.vhd --
+
+       Line                                   Node      1H->0L      0L->1H       0L->Z       Z->0L       1H->Z       Z->H1     ExtMode  "Coverage"
+--------------------------------------------------------------------------------------------------------------------------------------------------
+         12                                    clk           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         13                                  reset           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                                 req(7)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                                 req(6)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                                 req(5)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                                 req(4)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                                 req(3)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                                 req(2)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                                 req(1)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                                 req(0)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                               grant(7)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                               grant(6)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                               grant(5)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                               grant(4)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                               grant(3)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                               grant(2)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                               grant(1)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                               grant(0)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         45                                  state               ENUM type       Value       Count 
+                                                                      idle           1      100.00 
+                                                                       sel           1      100.00 
+                                                                       ack           1      100.00 
+         46                             grant_i(7)           0           0           0           0           0           0           3        0.00 
+         46                             grant_i(6)           0           0           0           0           0           0           3        0.00 
+         46                             grant_i(5)           0           0           0           0           0           0           3        0.00 
+         46                             grant_i(4)           0           0           0           0           0           0           3        0.00 
+         46                             grant_i(3)           0           0           0           0           0           0           3        0.00 
+         46                             grant_i(2)           0           0           0           0           0           0           3        0.00 
+         46                             grant_i(1)           0           0           0           0           0           0           3        0.00 
+         46                             grant_i(0)           0           0           0           0           0           0           3        0.00 
+         47                             req_enc(2)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         47                             req_enc(1)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         47                             req_enc(0)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         48                            req_enc_vld           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         49                         req_enc_sel(2)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         49                         req_enc_sel(1)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         49                         req_enc_sel(0)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+
+========
+(n*) - Number was not used in coverage calculations performed by extended toggle algorithms.
+
+Extended Toggle Coverage Calculation Criteria:
+-----------------------------------------------
+	ExtMode 1: 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z').
+	ExtMode 2: 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'.
+	ExtMode 3: 0L->1H & 1H->0L & all 'Z' transitions.
+========
+
+Total Node Count     =         36 
+Toggled Node Count   =         28 
+Untoggled Node Count =          8 
+
+Toggle Coverage      =      52.47% (53 of 101 bins)
+
+=================================================================================
+=== File: /home/student/npa0002/CPE526_SP22/SystemVerilog/src/prio_enc_recur.vhd
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         6         4         2    66.66%
+
+================================Branch Details================================
+
+Branch Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/prio_enc_recur.vhd --
+
+------------------------------------IF Branch------------------------------------
+    26                                   ***0***     Count coming in to IF
+    26              1                    ***0***          if x>y then
+    28              1                    ***0***          else
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    84                                     10576     Count coming in to IF
+    84              1                       4709               if (sub_vld(i)='1') then
+                                            5867     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    100                                     6354     Count coming in to IF
+    100             1                       2315               if (in_vec(i)='1') then
+                                            4039     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      20        18         2    90.00%
+
+================================Statement Details================================
+
+Statement Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/prio_enc_recur.vhd --
+
+    1                                                library ieee;
+    2                                                use ieee.std_logic_1164.all;
+    3                                                use ieee.std_logic_arith.all;
+    4                                                use ieee.std_logic_unsigned.all;
+    5                                                use ieee.std_logic_misc.all;
+    6                                                
+    7                                                entity prio_enc_recur is
+    8                                                  generic (
+    9                                                    chunk_log : integer:=2;
+    10                                                   width     : integer:=44;
+    11                                                   width_log : integer:=6
+    12                                                 );  
+    13                                                 port (
+    14                                                   in_vec    : in  std_logic_vector(width-1 downto 0);    -- vector to be encoded
+    15                                                   out_vec   : out std_logic_vector(width_log-1 downto 0);-- encoded value
+    16                                                   out_vld   : out std_logic                              -- input vector is all zeros when '0'
+    17                                                 );
+    18                                               end prio_enc_recur;
+    19                                               
+    20                                               architecture rtl of prio_enc_recur is
+    21                                               
+    22                                                 function max (
+    23                                                    x: integer;
+    24                                                    y: integer)
+    25                                                 return integer is begin
+    26                                                    if x>y then
+    27              1                    ***0***            return x;
+    28                                                    else
+    29              1                    ***0***            return y;
+    30                                                    end if;
+    31                                                 end max;
+    32                                               
+    33                                                 component prio_enc_recur
+    34                                                 generic (
+    35                                                   chunk_log : integer:=6;
+    36                                                   width     : integer:=64;
+    37                                                   width_log : integer:=6
+    38                                                 );  
+    39                                                 port (
+    40                                                   in_vec    : in  std_logic_vector(width-1 downto 0);
+    41                                                   out_vec   : out std_logic_vector(width_log-1 downto 0);
+    42                                                   out_vld   : out std_logic
+    43                                                 );
+    44                                                 end component;
+    45                                               
+    46                                                 constant chunk         : natural := (2**chunk_log);
+    47                                                 constant sub_width_log : natural := max(width_log-chunk_log,0);
+    48                                                 constant sub_width     : natural := (2**sub_width_log);
+    49                                                 constant num_inst      : natural := ((width-1)/sub_width)+1;
+    50                                               
+    51                                                 signal in_vec_ext  : std_logic_vector((2**width_log)-1 downto 0):=(others=>'0');
+    52                                               
+    53                                               begin
+    54                                               
+    55                                                 g_ext : if (2**width_log)>width generate
+    56                                                    in_vec_ext((2**width_log)-1 downto in_vec'length) <= (others=>'0');
+    57                                                 end generate;
+    58              1                       6163       in_vec_ext(in_vec'range) <= in_vec;
+    59                                               
+    60                                                 -- recursively instantiate the same unit
+    61                                                 g_recur : if width_log>chunk_log generate
+    62                                                   type t_vecN is array (natural range <>) of std_logic_vector(sub_width_log-1 downto 0);
+    63                                                   signal sub_vec     : t_vecN(0 to num_inst-1):=(others=>(others=>'0'));
+    64                                                   signal sub_vld     : std_logic_vector(0 to num_inst-1):=(others=>'0');
+    65                                                 begin
+    66                                                   g_units : for i in 0 to num_inst-1 generate
+    67                                                      urecur : prio_enc_recur
+    68                                                      generic map (
+    69                                                         chunk_log => chunk_log,
+    70                                                         width     => sub_width,
+    71                                                         width_log => sub_width_log
+    72                                                      ) port map (
+    73                                                         in_vec    => in_vec_ext(((i+1)*sub_width)-1 downto i*sub_width),
+    74                                                         out_vec   => sub_vec(i),
+    75                                                         out_vld   => sub_vld(i)
+    76                                                      );
+    77                                                   end generate;
+    78                                               
+    79              1                       2644         process (sub_vec,sub_vld)
+    80                                                   begin
+    81              1                       2644            out_vld <= '0';
+    82              1                       2644            out_vec <= (others=>'0');
+    83              1                       2644            for i in num_inst-1 downto 0 loop
+    83              2                      10576     
+    84                                                         if (sub_vld(i)='1') then
+    85              1                       4709                  out_vld <= '1';
+    86              1                       4709                  out_vec(width_log-1 downto sub_width_log) <= conv_std_logic_vector(i,width_log-sub_width_log);
+    87              1                       4709                  out_vec(sub_width_log-1 downto 0) <= sub_vec(i);
+    88                                                         end if;
+    89              1                      10576            end loop;
+    90                                                   end process;
+    91                                                 end generate;
+    92                                                  
+    93                                                 -- this is the lowest level of the unit - encode this vector and return the status
+    94                                                 g_norecur : if width_log<=chunk_log generate
+    95              1                       3177         process (in_vec)
+    96                                                   begin
+    97              1                       3177            out_vld <= '0';
+    98              1                       3177            out_vec <= (others=>'0');
+    99              1                       3177            for i in width-1 downto 0 loop
+    99              2                       6354     
+    100                                                        if (in_vec(i)='1') then
+    101             1                       2315                  out_vld <= '1';
+    102             1                       2315                  out_vec <= conv_std_logic_vector(i,width_log);
+    103                                                        end if;
+    104             1                       6354            end loop;
+    105                                                  end process;
+    106                                                end generate;
+    107                                              
+    108                                              end rtl;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         40        40         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for File /home/student/npa0002/CPE526_SP22/SystemVerilog/src/prio_enc_recur.vhd --
+
+       Line                                   Node      1H->0L      0L->1H       0L->Z       Z->0L       1H->Z       Z->H1     ExtMode  "Coverage"
+--------------------------------------------------------------------------------------------------------------------------------------------------
+         14                              in_vec(7)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                              in_vec(6)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                              in_vec(5)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                              in_vec(4)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                              in_vec(3)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                              in_vec(2)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         14                              in_vec(1)           5           5           0*          0*          0*          0*    2-STATE      100.00 
+         14                              in_vec(0)           5           5           0*          0*          0*          0*    2-STATE      100.00 
+         15                             out_vec(2)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                             out_vec(1)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         15                             out_vec(0)           5           5           0*          0*          0*          0*    2-STATE      100.00 
+         16                                out_vld           5           5           0*          0*          0*          0*    2-STATE      100.00 
+         51                          in_vec_ext(7)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         51                          in_vec_ext(6)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         51                          in_vec_ext(5)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         51                          in_vec_ext(4)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         51                          in_vec_ext(3)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         51                          in_vec_ext(2)           1           1           0*          0*          0*          0*    2-STATE      100.00 
+         51                          in_vec_ext(1)           5           5           0*          0*          0*          0*    2-STATE      100.00 
+         51                          in_vec_ext(0)           5           5           0*          0*          0*          0*    2-STATE      100.00 
+
+========
+(n*) - Number was not used in coverage calculations performed by extended toggle algorithms.
+
+Extended Toggle Coverage Calculation Criteria:
+-----------------------------------------------
+	ExtMode 1: 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z').
+	ExtMode 2: 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'.
+	ExtMode 3: 0L->1H & 1H->0L & all 'Z' transitions.
+========
+
+Total Node Count     =         20 
+Toggled Node Count   =         20 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (40 of 40 bins)
+
+=================================================================================
+=== File: /home/student/npa0002/CPE526_SP22/SystemVerilog/src/req_dev.vhd
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10        10         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/req_dev.vhd --
+
+------------------------------------IF Branch------------------------------------
+    20                                   1306672     Count coming in to IF
+    20              1                      22944         if (RESET = '1')then
+    23              1                     641064         elsif (CLK'event and CLK = '1') then
+                                          642664     All False Count
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    24                                    641064     Count coming in to CASE
+    25              1                     567299             when IDLE => COUNT := 0; 
+    32              1                       1600             when COUNT_LOAD => COUNT := REQ_TIME;
+    35              1                      72165             when COUNT_DOWN => COUNT := COUNT - 1;
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    26                                    567299     Count coming in to IF
+    26              1                       1604                          if (GEN_REQ = '1') then
+    28              1                     565695                          else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    36                                     72165     Count coming in to IF
+    36              1                       1396                                if (COUNT = 0) then 
+    38              1                      70769                                else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       3         3         0   100.00%
+    FSM Transitions                  4         4         0   100.00%
+
+================================FSM Details================================
+
+FSM Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/req_dev.vhd --
+
+FSM_ID: STATE
+    Current State Object : STATE
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  25                IDLE                   0
+  32          COUNT_LOAD                   1
+  35          COUNT_DOWN                   2
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    IDLE              588643          
+              COUNT_LOAD                1600          
+              COUNT_DOWN               72165          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  27                   0                1600          IDLE -> COUNT_LOAD            
+  33                   1                1598          COUNT_LOAD -> COUNT_DOWN          
+  21                   2                   2          COUNT_LOAD -> IDLE            
+  37                   3                1598          COUNT_DOWN -> IDLE            
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   3         3         0   100.00%
+        FSM Transitions              4         4         0   100.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15        15         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/req_dev.vhd --
+
+    1                                                library ieee;
+    2                                                use ieee.std_logic_1164.all;
+    3                                                
+    4                                                entity REQ_DEV is
+    5                                                  port(GEN_REQ : in std_logic;
+    6                                                       REQ_TIME : in integer range 0 to 100;
+    7                                                       REQUEST : out std_logic;
+    8                                                       GRANT : in std_logic;
+    9                                                       RESET, CLK : in std_logic);
+    10                                               end REQ_DEV;
+    11                                               
+    12                                               architecture BEHAV of REQ_DEV is
+    13                                                 type STATE_TYPE is (IDLE, COUNT_LOAD, COUNT_DOWN);
+    14                                                 signal STATE : STATE_TYPE;
+    15                                                 signal DEBUG : integer range 0 to 100;
+    16                                               begin
+    17              1                    1306672       cntdwn : process(RESET, CLK)
+    18                                                   variable COUNT : integer range 0 to 100;
+    19                                                 begin
+    20                                                   if (RESET = '1')then
+    21              1                      22944           STATE <= IDLE;
+    22              1                      22944           REQUEST <= '0';
+    23                                                   elsif (CLK'event and CLK = '1') then
+    24                                                     case STATE is
+    25              1                     567299             when IDLE => COUNT := 0; 
+    26                                                                    if (GEN_REQ = '1') then
+    27              1                       1604                            STATE <= COUNT_LOAD;
+    28                                                                    else
+    29              1                     565695                            STATE <= IDLE;
+    30                                                                    end if;
+    31              1                     567299                          REQUEST <= '0';
+    32              1                       1600             when COUNT_LOAD => COUNT := REQ_TIME;
+    33              1                       1600                                 STATE <= COUNT_DOWN;
+    34              1                       1600                                 REQUEST <= '1';
+    35              1                      72165             when COUNT_DOWN => COUNT := COUNT - 1;
+    36                                                                          if (COUNT = 0) then 
+    37              1                       1396                                  STATE <= IDLE;
+    38                                                                          else
+    39              1                      70769                                  STATE <= COUNT_DOWN;
+    40                                                                          end if;
+    41              1                      72165                                REQUEST <= '1';
+    42                                                     end case;
+    43                                                   end if;
+    44              1                    1306672         DEBUG <= COUNT;
+    45                                                 end process cntdwn;
+    46                                               end BEHAV;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         15        15         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for File /home/student/npa0002/CPE526_SP22/SystemVerilog/src/req_dev.vhd --
+
+       Line                                   Node      1H->0L      0L->1H       0L->Z       Z->0L       1H->Z       Z->H1     ExtMode  "Coverage"
+--------------------------------------------------------------------------------------------------------------------------------------------------
+          5                                GEN_REQ           8           8           0*          0*          0*          0*    2-STATE      100.00 
+          6                               REQ_TIME            INTEGER type         101      values                                             yes
+          7                                REQUEST           8           8           0*          0*          0*          0*    2-STATE      100.00 
+          8                                  GRANT           8           8           0*          0*          0*          0*    2-STATE      100.00 
+          9                                  RESET           8           8           0*          0*          0*          0*    2-STATE      100.00 
+          9                                    CLK           8           8           0*          0*          0*          0*    2-STATE      100.00 
+         14                                  STATE               ENUM type       Value       Count 
+                                                                      IDLE           8      100.00 
+                                                                COUNT_LOAD           8      100.00 
+                                                                COUNT_DOWN           8      100.00 
+         15                                  DEBUG            INTEGER type         101      values                                             yes
+
+========
+(n*) - Number was not used in coverage calculations performed by extended toggle algorithms.
+
+Extended Toggle Coverage Calculation Criteria:
+-----------------------------------------------
+	ExtMode 1: 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z').
+	ExtMode 2: 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'.
+	ExtMode 3: 0L->1H & 1H->0L & all 'Z' transitions.
+========
+
+Total Node Count     =         10 
+Toggled Node Count   =         10 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (15 of 15 bins)
+
+=================================================================================
+=== File: /home/student/npa0002/CPE526_SP22/SystemVerilog/src/test_arb0.sv
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      90        90         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/test_arb0.sv --
+
+    1                                                import mine::*;
+    2                                                
+    3                                                module test0(arb_if arbif);
+    4                                                	int seed = 1;
+    5                                                	Packet p;
+    6                                                	initial begin
+    7               1                          1     		p = new();
+    8               1                          1     		p.srandom(seed);
+    9               1                        200     		repeat(200)
+    10                                               		begin
+    11              1                        200     			p.randomize();
+    12              1                        200     			arbif.REQ_TIME0 <= p.req_time_t;
+    13              1                      40723     			repeat (p.wait_time_t) @(arbif.cb);
+    13              2                      40723     
+    14              1                        200     			arbif.GEN_REQ[0] <= 1'b1;
+    15              1                        200     			@(posedge arbif.REQ[0]);
+    16              1                        200     			arbif.GEN_REQ[0] <= 1'b0;
+    17                                               		end
+    18                                               	end
+    19                                               endmodule :test0
+    20                                               
+    21                                               module test1(arb_if arbif);
+    22                                               	int seed = 2;
+    23                                               	Packet p;
+    24                                               	initial begin
+    25              1                          1     		p = new();
+    26              1                          1     		p.srandom(seed);
+    27              1                        200     		repeat(200)
+    28                                               		begin
+    29              1                        200     			p.randomize();
+    30              1                        200     			arbif.REQ_TIME1 <= p.req_time_t;
+    31              1                      40052     			repeat (p.wait_time_t) @(arbif.cb);
+    31              2                      40052     
+    32              1                        200     			arbif.GEN_REQ[1] <= 1'b1;
+    33              1                        200     			@(posedge arbif.REQ[1]);
+    34              1                        200     			arbif.GEN_REQ[1] <= 1'b0;
+    35                                               		end
+    36                                               	end
+    37                                               endmodule :test1	
+    38                                               
+    39                                               module test2(arb_if arbif);
+    40                                               	int seed = 3;
+    41                                               	Packet p;
+    42                                               	initial begin
+    43              1                          1     		p = new();
+    44              1                          1     		p.srandom(seed);
+    45              1                        200     		repeat(200)
+    46                                               		begin
+    47              1                        200     			p.randomize();
+    48              1                        200     			arbif.REQ_TIME2 <= p.req_time_t;
+    49              1                      38764     			repeat (p.wait_time_t) @(arbif.cb);
+    49              2                      38764     
+    50              1                        200     			arbif.GEN_REQ[2] <= 1'b1;
+    51              1                        200     			@(posedge arbif.REQ[2]);
+    52              1                        200     			arbif.GEN_REQ[2] <= 1'b0;
+    53                                               		end
+    54                                               	end
+    55                                               endmodule :test2	
+    56                                               
+    57                                               module test3(arb_if arbif);
+    58                                               	int seed = 4;
+    59                                               	Packet p;
+    60                                               	initial begin
+    61              1                          1     		p = new();
+    62              1                          1     		p.srandom(seed);
+    63              1                        200     		repeat(200)
+    64                                               		begin
+    65              1                        200     			p.randomize();
+    66              1                        200     			arbif.REQ_TIME3 <= p.req_time_t;
+    67              1                      40434     			repeat (p.wait_time_t) @(arbif.cb);
+    67              2                      40434     
+    68              1                        200     			arbif.GEN_REQ[3] <= 1'b1;
+    69              1                        200     			@(posedge arbif.REQ[3]);
+    70              1                        200     			arbif.GEN_REQ[3] <= 1'b0;
+    71                                               		end
+    72                                               	end
+    73                                               endmodule :test3	
+    74                                               
+    75                                               module test4(arb_if arbif);
+    76                                               	int seed = 5;
+    77                                               	Packet p;
+    78                                               	initial begin
+    79              1                          1     		p = new();
+    80              1                          1     		p.srandom(seed);
+    81              1                        200     		repeat(200)
+    82                                               		begin
+    83              1                        200     			p.randomize();
+    84              1                        200     			arbif.REQ_TIME4 <= p.req_time_t;
+    85              1                      40094     			repeat (p.wait_time_t) @(arbif.cb);
+    85              2                      40094     
+    86              1                        200     			arbif.GEN_REQ[4] <= 1'b1;
+    87              1                        200     			@(posedge arbif.REQ[4]);
+    88              1                        200     			arbif.GEN_REQ[4] <= 1'b0;
+    89                                               		end
+    90                                               	end
+    91                                               endmodule :test4	
+    92                                               
+    93                                               module test5(arb_if arbif);
+    94                                               	int seed = 6;
+    95                                               	Packet p;
+    96                                               	initial begin
+    97              1                          1     		p = new();
+    98              1                          1     		p.srandom(seed);
+    99              1                        200     		repeat(200)
+    100                                              		begin
+    101             1                        200     			p.randomize();
+    102             1                        200     			arbif.REQ_TIME5 <= p.req_time_t;
+    103             1                      39854     			repeat (p.wait_time_t) @(arbif.cb);
+    103             2                      39854     
+    104             1                        200     			arbif.GEN_REQ[5] <= 1'b1;
+    105             1                        200     			@(posedge arbif.REQ[5]);
+    106             1                        200     			arbif.GEN_REQ[5] <= 1'b0;
+    107                                              		end
+    108                                              	end
+    109                                              endmodule :test5	
+    110                                              
+    111                                              module test6(arb_if arbif);
+    112                                              	int seed = 7;
+    113                                              	Packet p;
+    114                                              	initial begin	
+    115             1                          1     		p = new();
+    116             1                          1     		p.srandom(seed);
+    117             1                        200     		repeat(200)
+    118                                              		begin
+    119             1                        200     			p.randomize();
+    120             1                        200     			arbif.REQ_TIME6 <= p.req_time_t;
+    121             1                      39210     			repeat (p.wait_time_t) @(arbif.cb);
+    121             2                      39210     
+    122             1                        200     			arbif.GEN_REQ[6] <= 1'b1;
+    123             1                        200     			@(posedge arbif.REQ[6]);
+    124             1                        200     			arbif.GEN_REQ[6] <= 1'b0;
+    125                                              		end
+    126                                              	end
+    127                                              endmodule :test6	
+    128                                              
+    129                                              module test7(arb_if arbif);
+    130                                              	int seed = 8;
+    131                                              	Packet p;	
+    132                                              	initial begin
+    133             1                          1     		p = new();
+    134             1                          1     		p.srandom(seed);
+    135             1                        200     		repeat(200)
+    136                                              		begin
+    137             1                        200     			p.randomize();
+    138             1                        200     			arbif.REQ_TIME7 <= p.req_time_t;
+    139             1                      40203     			repeat (p.wait_time_t) @(arbif.cb);
+    139             2                      40203     
+    140             1                        200     			arbif.GEN_REQ[7] <= 1'b1;
+    141             1                        200     			@(posedge arbif.REQ[7]);
+    142             1                        200     			arbif.GEN_REQ[7] <= 1'b0;
+    143                                              		end
+    144                                              	end
+    145                                              endmodule :test7
+    146                                              
+    147                                              module reset_test(arb_if arbif);
+    148                                              	int seed = 500;
+    149                                              	Reset r;
+    150                                              	initial begin
+    151             1                          1     		r=new();
+    152             1                        200     		repeat(200)
+    153                                              		begin
+    154             1                        200     			r.randomize();
+    155             1                      80133     			repeat(r.reset_wait_t) @(arbif.cb);
+    155             2                      80133     
+    156             1                        200     			arbif.RESET <= 1'b1;
+    157             1                       1334     			repeat(r.reset_hold_t) @(arbif.cb);
+    157             2                       1334     
+    158             1                        200     			arbif.RESET <= 1'b0;
+    159                                              		end
+    160             1                          1     	$stop;
+    161                                              	end
+    162                                              endmodule : reset_test
+
+
+=================================================================================
+=== File: /home/student/npa0002/CPE526_SP22/SystemVerilog/src/top-1.sv
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for file /home/student/npa0002/CPE526_SP22/SystemVerilog/src/top-1.sv --
+
+    1                                                module top;
+    2                                                	bit clk;
+    3               1                     162934     	always #5 clk=~clk;
+    3               2                     162933     
+    4                                                
+    5                                                	arb_if arbif(clk);
+    6                                                
+    7                                                	prio_enc_arb A1 (.REQ (arbif.REQ),
+    8                                                		    .GRANT (arbif.GRANT),
+    9                                                		    .RESET (arbif.RESET),
+    10                                               		    .CLK (clk));
+    11                                               	req_dev r0 (.GEN_REQ (arbif.GEN_REQ[0]),
+    12                                               		    .REQ_TIME (arbif.REQ_TIME0),
+    13                                               		    .REQUEST (arbif.REQ[0]),
+    14                                               		    .GRANT (arbif.GRANT[0]),
+    15                                               		    .RESET (arbif.RESET),
+    16                                               		    .CLK(clk));
+    17                                               	req_dev r1 (.GEN_REQ (arbif.GEN_REQ[1]),
+    18                                               		    .REQ_TIME (arbif.REQ_TIME1),
+    19                                               		    .REQUEST (arbif.REQ[1]),
+    20                                               		    .GRANT (arbif.GRANT[1]),
+    21                                               		    .RESET (arbif.RESET),
+    22                                               		    .CLK(clk));
+    23                                               	req_dev r2 (.GEN_REQ (arbif.GEN_REQ[2]),
+    24                                               		    .REQ_TIME (arbif.REQ_TIME2),
+    25                                               		    .REQUEST (arbif.REQ[2]),
+    26                                               		    .GRANT (arbif.GRANT[2]),
+    27                                               		    .RESET (arbif.RESET),
+    28                                               		    .CLK(clk));
+    29                                               	req_dev r3 (.GEN_REQ (arbif.GEN_REQ[3]),
+    30                                               		    .REQ_TIME (arbif.REQ_TIME3),
+    31                                               		    .REQUEST (arbif.REQ[3]),
+    32                                               		    .GRANT (arbif.GRANT[3]),
+    33                                               		    .RESET (arbif.RESET),
+    34                                               		    .CLK(clk));
+    35                                               	req_dev r4 (.GEN_REQ (arbif.GEN_REQ[4]),
+    36                                               		    .REQ_TIME (arbif.REQ_TIME4),
+    37                                               		    .REQUEST (arbif.REQ[4]),
+    38                                               		    .GRANT (arbif.GRANT[4]),
+    39                                               		    .RESET (arbif.RESET), 
+    40                                               		    .CLK(clk));
+    41                                               	req_dev r5 (.GEN_REQ (arbif.GEN_REQ[5]),
+    42                                               		    .REQ_TIME (arbif.REQ_TIME5),
+    43                                               		    .REQUEST (arbif.REQ[5]),
+    44                                               		    .GRANT (arbif.GRANT[5]),
+    45                                               		    .RESET (arbif.RESET),
+    46                                               		    .CLK(clk));
+    47                                               	req_dev r6 (.GEN_REQ (arbif.GEN_REQ[6]),
+    48                                               		    .REQ_TIME (arbif.REQ_TIME6),
+    49                                               		    .REQUEST (arbif.REQ[6]),
+    50                                               		    .GRANT (arbif.GRANT[6]),
+    51                                               		    .RESET (arbif.RESET),
+    52                                               		    .CLK(clk));
+    53                                               	req_dev r7 (.GEN_REQ (arbif.GEN_REQ[7]),
+    54                                               		    .REQ_TIME (arbif.REQ_TIME7),
+    55                                               		    .REQUEST (arbif.REQ[7]),
+    56                                               		    .GRANT (arbif.GRANT[7]),
+    57                                               		    .RESET (arbif.RESET),
+    58                                               		    .CLK(clk));
+    59                                               
+    60                                               	test0 t0 (arbif);
+    61                                               	test1 t1 (arbif);	
+    62                                               	test2 t2 (arbif);
+    63                                               	test3 t3 (arbif);
+    64                                               	test4 t4 (arbif);
+    65                                               	test5 t5 (arbif);
+    66                                               	test6 t6 (arbif);
+    67                                               	test7 t7 (arbif);
+    68                                               	reset_test t8 (arbif);
+    69                                               endmodule : top
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          2         2         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for File /home/student/npa0002/CPE526_SP22/SystemVerilog/src/top-1.sv --
+
+       Line                                   Node      1H->0L      0L->1H       0L->Z       Z->0L       1H->Z       Z->H1     ExtMode  "Coverage"
+--------------------------------------------------------------------------------------------------------------------------------------------------
+          2                                    clk           1           1                                                                  100.00 
+
+========
+(n*) - Number was not used in coverage calculations performed by extended toggle algorithms.
+
+Extended Toggle Coverage Calculation Criteria:
+-----------------------------------------------
+	ExtMode 1: 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z').
+	ExtMode 2: 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'.
+	ExtMode 3: 0L->1H & 1H->0L & all 'Z' transitions.
+========
+
+Total Node Count     =          1 
+Toggled Node Count   =          1 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (2 of 2 bins)
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/arbif/one_hot_assert
+                     /home/student/npa0002/CPE526_SP22/SystemVerilog/src/interface-3.sv(9)
+                                                        1          1
+
+Total Coverage By File (code coverage only, filtered view): 79.73%
+
+

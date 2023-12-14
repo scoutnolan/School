@@ -1,0 +1,12 @@
+-rw-r--r-- 1 npa0002 student     0 Feb  7 19:16 b.txt
+-rw-r--r-- 1 npa0002 student  1235 Jan 25 22:04 lab03_demo5.c
+-rw-r--r-- 1 npa0002 student  1261 Jan 25 22:04 lab03_demo2.c
+-rw-r--r-- 1 npa0002 student  1589 Jan 25 16:18 lab03_demo1.c
+-rw-r--r-- 1 npa0002 student  1657 Jan 25 22:04 lab03_demo4.c
+-rw-r--r-- 1 npa0002 student  1714 Jan 25 22:04 lab03_demo3.c
+-rw-r--r-- 1 npa0002 student   271 Jan 25 22:04 example2.c
+-rw-r--r-- 1 npa0002 student  3677 Feb  4 13:21 Shell.c
+-rw-r--r-- 1 npa0002 student   536 Jan 25 22:04 example3.c
+-rw-r--r-- 1 npa0002 student   601 Feb  7 19:14 a.txt
+-rwxr-xr-x 1 npa0002 student 13160 Feb  7 19:13 shell
+total 52

@@ -1,0 +1,53 @@
+Naive
+========== STARTING AES ENCRYPTION CUDA ==========
+77804 
+81660 
+82929 
+67506 
+82682 
+178250 
+152787 
+158837 
+164132 
+153653 
+224486 
+196779 
+224222 
+207299 
+254368
+
+Better approach
+
+
+========== STARTING AES ENCRYPTION CUDA Optimized ==========
+Files encrypted: 100 |Batch #0| Time To Encrypt 521952 microseconds 
+Files encrypted: 100 |Batch #1| Time To Encrypt 366 microseconds 
+Files encrypted: 100 |Batch #2| Time To Encrypt 350 microseconds 
+Files encrypted: 100 |Batch #3| Time To Encrypt 348 microseconds 
+Files encrypted: 100 |Batch #4| Time To Encrypt 354 microseconds 
+Files encrypted: 200 |Batch #0| Time To Encrypt 471 microseconds 
+Files encrypted: 200 |Batch #1| Time To Encrypt 463 microseconds 
+Files encrypted: 200 |Batch #2| Time To Encrypt 465 microseconds 
+Files encrypted: 200 |Batch #3| Time To Encrypt 442 microseconds 
+Files encrypted: 200 |Batch #4| Time To Encrypt 460 microseconds 
+Files encrypted: 300 |Batch #0| Time To Encrypt 551 microseconds 
+Files encrypted: 300 |Batch #1| Time To Encrypt 551 microseconds 
+Files encrypted: 300 |Batch #2| Time To Encrypt 574 microseconds 
+Files encrypted: 300 |Batch #3| Time To Encrypt 569 microseconds 
+Files encrypted: 300 |Batch #4| Time To Encrypt 567 microseconds 
+========== STARTING AES ENCRYPTION CUDA Constant ==========
+Files encrypted: 100 |Batch #0| Time To Encrypt 305201 microseconds 
+Files encrypted: 100 |Batch #1| Time To Encrypt 109 microseconds 
+Files encrypted: 100 |Batch #2| Time To Encrypt 107 microseconds 
+Files encrypted: 100 |Batch #3| Time To Encrypt 109 microseconds 
+Files encrypted: 100 |Batch #4| Time To Encrypt 111 microseconds 
+Files encrypted: 200 |Batch #0| Time To Encrypt 205 microseconds 
+Files encrypted: 200 |Batch #1| Time To Encrypt 207 microseconds 
+Files encrypted: 200 |Batch #2| Time To Encrypt 205 microseconds 
+Files encrypted: 200 |Batch #3| Time To Encrypt 207 microseconds 
+Files encrypted: 200 |Batch #4| Time To Encrypt 208 microseconds 
+Files encrypted: 300 |Batch #0| Time To Encrypt 307 microseconds 
+Files encrypted: 300 |Batch #1| Time To Encrypt 303 microseconds 
+Files encrypted: 300 |Batch #2| Time To Encrypt 305 microseconds 
+Files encrypted: 300 |Batch #3| Time To Encrypt 305 microseconds 
+Files encrypted: 300 |Batch #4| Time To Encrypt 304 microseconds 
